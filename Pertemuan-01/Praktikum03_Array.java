@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Praktikum03 {
+public class Praktikum03_Array {
     public static void main(String[] args) {
         String[] mataKuliah = { "PANCASILA", "KTI", "CTPS", "MATDAS", "BING", "DASPRO", "PRAKDASPRO", "K3" };
         int[] nilaiAngka = new int[mataKuliah.length];
