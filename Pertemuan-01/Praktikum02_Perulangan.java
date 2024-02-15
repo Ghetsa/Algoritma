@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Praktikum02 {
+public class Praktikum02_Perulangan {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
