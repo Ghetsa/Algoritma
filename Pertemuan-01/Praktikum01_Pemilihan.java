@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Praktikum01 {
+public class Praktikum01_Pemilihan {
 
     public static void main(String[] args) {
         float IP;
