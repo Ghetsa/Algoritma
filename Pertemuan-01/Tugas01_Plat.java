@@ -31,24 +31,25 @@ public class Tugas01_Plat {
         System.out.print("Masukkan Kode Huruf Kota: ");
         String huruf = input.nextLine();
 
-        int plat = 0;
+        int plat = -1;
         for (int i = 0; i < hurufPlat.length; i++) {
             if (huruf.equalsIgnoreCase(hurufPlat[i])) {
                 plat = i;
                 break;
             }
         }
-        if (plat == 0) {
+        if (plat != -1) {
+            System.out.println("Plat: " + hurufPlat[plat]);
+            System.out.print("Kota: ");
+            for (int i = 0; i < kota[plat].length; i++) {
+                if (kota[plat][i] != null) {
+
+                    System.out.print(kota[plat][i]);
+                }
+            }
+        } else {
             System.out.println("KODE HURUF ANDA SALAH!!");
             System.exit(0);
-        }
-        System.out.println("Plat: " + hurufPlat[plat]);
-        System.out.print("Kota: ");
-        for (int i = 0; i < kota[plat].length; i++) {
-            if (kota[plat][i] != null) {
-
-                System.out.print(kota[plat][i]);
-            }
         }
 
         input.close();
