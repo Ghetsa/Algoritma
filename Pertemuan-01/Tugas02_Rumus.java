@@ -23,39 +23,45 @@ public class Tugas02_Rumus {
                     System.out.println("|      HITUNG KECEPATAN    |");
                     System.out.println("============================");
                     System.out.print("Masukkan Jarak(Km)  : ");
-                    jarak = input.nextInt();
+                    jarak = input.nextDouble();
                     System.out.print("Masukkan Waktu(Jam) : ");
-                    waktu = input.nextInt();
+                    waktu = input.nextDouble();
 
                     kecepatan = hitungKecepatan(jarak, waktu);
                     System.out.println("============================");
                     System.out.println("Kecepatan : " + kecepatan + " Km/Jam");
+                    System.out.println("============================");
+
                     break;
                 case 2:
                     System.out.println("============================");
                     System.out.println("|        HITUNG JARAK      |");
                     System.out.println("============================");
                     System.out.print("Masukkan Kecepatan(Km/Jam)  : ");
-                    kecepatan = input.nextInt();
+                    kecepatan = input.nextDouble();
                     System.out.print("Masukkan Waktu(Jam) : ");
-                    waktu = input.nextInt();
+                    waktu = input.nextDouble();
 
                     jarak = hitungJarak(kecepatan, waktu);
                     System.out.println("============================");
                     System.out.println("Jarak : " + jarak + " Km");
+                    System.out.println("============================");
+
                     break;
                 case 3:
                     System.out.println("============================");
                     System.out.println("|        HITUNG WAKTU      |");
                     System.out.println("============================");
                     System.out.print("Masukkan Jarak(Km)  : ");
-                    jarak = input.nextInt();
+                    jarak = input.nextDouble();
                     System.out.print("Masukkan Kecepatan(Km/Jam) : ");
-                    kecepatan = input.nextInt();
+                    kecepatan = input.nextDouble();
 
                     waktu = hitungWaktu(jarak, kecepatan);
                     System.out.println("============================");
                     System.out.println("Waktu : " + waktu + " Jam");
+                    System.out.println("============================");
+
                     break;
 
             }
