@@ -11,8 +11,11 @@
 ## Hasil Output Praktikum Pemilihan
 
 Hasil output dari Program Menghitung Nilai Akhir :
-<img src="11.png">
-<img src="12.png">
+
+1. Status : LULUS
+   <img src="11.png">
+2. Status : TIDAK LULUS
+   <img src="12.png">
 
 ## Hasil Output Praktikum Perulangan
 
@@ -30,7 +33,7 @@ Hasil output dari Program Toko Bunga
 
 #### Pendapatan cabang
 
-<img src="41.png">
+<img src="41.png" width="100px">
 
 #### Stok bunga tiap cabang
 
