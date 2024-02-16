@@ -1,23 +1,18 @@
 # Laporan Praktikum Pertemuan 1
 
-##### NAMA : GHETSA RAMADHANI RISKA ARRYANTI
-
-##### KELAS : TI-1H
-
-##### NIM : 2341720004
-
-##### ABSEN : 12
+NAMA : GHETSA RAMADHANI RISKA ARRYANTI
+KELAS : TI-1H
+NIM : 2341720004
+ABSEN : 12
 
 ## Hasil Output Praktikum Pemilihan
 
 Hasil output dari Program Menghitung Nilai Akhir :
 
-#### 1. Status : LULUS
-
+1. Status : LULUS
    <img src="11.png" width="450px">
 
-#### 2. Status : TIDAK LULUS
-
+2. Status : TIDAK LULUS
    <img src="12.png" width="450px">
 
 ## Hasil Output Praktikum Perulangan
@@ -53,7 +48,7 @@ Hasil output dari Program Plat Mobil
 
 Hasil output dari Program JKW
 
-1. Kode huruf benar
-   <img src = "121.png" width="250px"><br>
-2. Kode huruf SALAH
-   <img src = "122.png" width="250px"><br>
+1. Kode huruf BENAR<br>
+   <img src = "121.png" width="250px">
+2. Kode huruf SALAH<br>
+   <img src = "122.png" width="250px">
