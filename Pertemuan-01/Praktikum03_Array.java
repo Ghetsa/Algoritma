@@ -9,11 +9,11 @@ public class Praktikum03_Array {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("=================================================");
-        System.out.println("PROGRAM MENGHITUNG IP SEMESTER POLINEMA");
+        System.out.println("|    PROGRAM MENGHITUNG IP SEMESTER POLINEMA    |");
         System.out.println("=================================================");
         for (int i = 0; i < mataKuliah.length; i++) {
             do {
-                System.out.print("Masukkan Nilai " + mataKuliah[i] + " : ");
+                System.out.print("| Masukkan Nilai " + mataKuliah[i] + " : ");
                 nilaiAngka[i] = scanner.nextInt();
 
                 if (nilaiAngka[i] < 0 || nilaiAngka[i] > 100) {
@@ -21,7 +21,7 @@ public class Praktikum03_Array {
                 }
             } while (nilaiAngka[i] < 0 || nilaiAngka[i] > 100);
 
-            System.out.print("SKS: ");
+            System.out.print("| SKS: ");
             sks[i] = scanner.nextInt();
         }
 
@@ -74,7 +74,7 @@ public class Praktikum03_Array {
         }
         System.out.println("=================================================================================");
 
-        System.out.println("Total: " + totalSKS);
+        System.out.println("Total SKS: " + totalSKS);
         System.out.printf("IP: %.2f%n", IP);
     }
 
