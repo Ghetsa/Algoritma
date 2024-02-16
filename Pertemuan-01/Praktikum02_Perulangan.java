@@ -19,18 +19,14 @@ public class Praktikum02_Perulangan {
             }
             System.out.println("n: " + nilai);
 
-            for (int i = 0; i < nilai;) {
-
+            for (int i = 1; i <= nilai; i++) {
                 if (i % 2 == 1) {
                     System.out.print("* ");
-                    i++;
-                }
-                if (i == 6 || i == 10) {
+                } else if (i == 6 || i == 10) {
                     System.out.print("* ");
-                    i++;
+                } else {
+                    System.out.print(i + " ");
                 }
-                System.out.print(i + " ");
-                i++;
 
             }
         }
