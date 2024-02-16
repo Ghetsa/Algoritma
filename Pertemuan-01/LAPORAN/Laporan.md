@@ -1,9 +1,9 @@
 # Laporan Praktikum Pertemuan 1
 
-NAMA : GHETSA RAMADHANI RISKA ARRYANTI<br>
-KELAS : TI-1H<br>
-NIM : 2341720004<br>
-ABSEN : 12<br>
+<b>NAMA : GHETSA RAMADHANI RISKA ARRYANTI<b><br>
+<b>KELAS : TI-1H<b><br>
+<b>NIM : 2341720004<b><br>
+<b>ABSEN : 12<b><br>
 
 ## Hasil Output Praktikum Pemilihan
 
