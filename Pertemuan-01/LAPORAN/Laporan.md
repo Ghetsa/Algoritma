@@ -33,11 +33,11 @@ Hasil output dari Program Toko Bunga
 
 #### Pendapatan cabang
 
-<img src="41.png" width="500px">
+<img src="41.png" width="400px">
 
 #### Stok bunga tiap cabang
 
-<img src="42.png">
+<img src="42.png" width="400px">
 
 ## Tugas 1
 
