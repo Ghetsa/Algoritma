@@ -23,7 +23,7 @@ Hasil output dari Program Perulangan :<br>
 ## Hasil Output Praktikum Array
 
 Hasil output dari Program Menghitung IP Semester :<br>
-<img src="3.png">
+<img src="3.png" width="450px">
 
 ## Hasil Output Praktikum Fungsi
 
