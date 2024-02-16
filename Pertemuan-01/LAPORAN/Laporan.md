@@ -13,14 +13,14 @@
 Hasil output dari Program Menghitung Nilai Akhir :
 
 1. Status : LULUS
-   <img src="11.png">
+   <img src="11.png"width="450px">
 2. Status : TIDAK LULUS
-   <img src="12.png">
+   <img src="12.png"width="450px">
 
 ## Hasil Output Praktikum Perulangan
 
 Hasil output dari Program Perulangan :
-<img src="2.png">
+<img src="2.png"width="250px">
 
 ## Hasil Output Praktikum Array
 
@@ -50,6 +50,7 @@ Hasil output dari Program Plat Mobil
 
 Hasil output dari Program JKW
 
-<img src = "121.png"><br>
-
-<img src = "122.png"><br>
+1. Kode huruf benar
+   <img src = "121.png"width="250px"><br>
+2. Kode huruf SALAH
+   <img src = "122.png"width="250px"><br>
