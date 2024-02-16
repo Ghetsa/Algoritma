@@ -10,10 +10,10 @@
 Hasil output dari Program Menghitung Nilai Akhir :
 
 1. Status : LULUS<br>
-   <img src="11.png" width="450px">
+<img src="11.png" width="400px">
 
 2. Status : TIDAK LULUS<br>
-   <img src="12.png" width="450px">
+<img src="12.png" width="400px">
 
 ## Hasil Output Praktikum Perulangan
 
@@ -30,10 +30,10 @@ Hasil output dari Program Menghitung IP Semester :<br>
 Hasil output dari Program Toko Bunga :
 
 1. Pemasukan CABANG<br>
-   <img src="41.png" width="400px">
+   <img src="41.png" width="250px">
 
 2. STOK bunga tiap cabang<br>
-   <img src="42.png" width="400px">
+   <img src="42.png" width="430px">
 
 ## Tugas 1
 
@@ -49,8 +49,8 @@ Hasil output dari Program Plat MobilA :
 Hasil output dari Program JKW :
 
 1. KECEPATAN<br>
-   <img src = "121.png" width="250px">
+   <img src = "121.png" width="230px">
 2. JARAK<br>
-   <img src = "122.png" width="250px">
+   <img src = "122.png" width="270px">
 3. WAKTU<br>
    <img src = "123.png" width="250px">
