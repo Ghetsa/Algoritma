@@ -31,7 +31,7 @@ public class Praktikum01_Pemilihan {
         status = IP < 65 ? "TIDAK LULUS" : "LULUS";
 
         System.out.println("=================================================================================");
-        System.out.printf("| %-10s\t| %-15s| %-20s |%n", "NAMA", "NILAI AKHIR", "NILAI HURUF", "STATUS");
+        System.out.printf("| %-20s| %-10s\t| %-15s| %-20s |%n", "NAMA", "NILAI AKHIR", "NILAI HURUF", "STATUS");
         System.out.println("---------------------------------------------------------------------------------");
         System.out.printf("| %-20s| %-10.2f\t| %-15s| %-20s |%n", nama, IP, huruf, status);
         System.out.println("=================================================================================");
