@@ -1,3 +1,5 @@
+package Algoritma.Pertemuan01;
+
 import java.util.Scanner;
 
 public class Praktikum01_Pemilihan {
