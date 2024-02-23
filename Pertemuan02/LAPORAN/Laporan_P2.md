@@ -17,8 +17,8 @@ Setelah melakukan materi praktikum ini, mahasiswa mampu:
 ## 2.	Praktikum
 ### Percobaan 1: 
 Waktu Percobaan : 50 Menit
-Pada Percobaan 1 ini dilakukan pembuatan class beserta atribut dan method yang dimilikinya.
-Perhatikan Class Diagram berikut ini:
+Pada Percobaan 1 ini dilakukan pembuatan class beserta atribut dan method yang dimilikinya.<br>
+Perhatikan Class Diagram berikut ini:<br>
 <img src="gam1.png" width="400px">
 
 #### Hasil Percobaan
