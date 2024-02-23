@@ -2,14 +2,19 @@ package Algoritma.Pertemuan02;
 
 public class Buku12 {
     String judul, pengarang;
-    int halaman, stok, harga;
+    int halaman, stok, harga, total, dis, bayar;
 
     void tampilInformasi() {
-        System.out.println("Judul: " + judul);
-        System.out.println("Pengarang: " + pengarang);
+        System.out.println("=========================================");
+        System.out.println("Judul         : " + judul);
+        System.out.println("Pengarang     : " + pengarang);
         System.out.println("Jumlah Halaman: " + halaman);
-        System.out.println("Sisa stok: " + stok);
-        System.out.println("Harga: " + harga);
+        System.out.println("Sisa stok     : " + stok);
+        System.out.println("Harga         : Rp " + harga);
+        System.out.println("Harga Total   : " + total);
+        System.out.println("Diskon        : " + dis);
+        System.out.println("Harga Bayar   : " + bayar);
+        System.out.println("=========================================");
     }
 
     void terjual(int jml) {
@@ -38,32 +43,25 @@ public class Buku12 {
         harga = har;
     }
 
-    int hitungHargaTotal(int hrg, int jm) {
-        int tot = hrg * jm;
-        return tot;
+    void hitungHargaTotal(int jml) {
+        total = harga * stok;
     }
 
-    int hitungDiskon(int ttl) {
-        int total = ttl;
-        int dis;
+    void hitungDiskon() {
         if (total > 150000) {
-            dis = 12 / 100;
-        } else if (total >= 75000 && total <= 150000) {
-            dis = 5 / 100;
+            dis += total * 0.12;
+        } else if (total > 75000 && total <= 150000) {
+            dis += total * 0.5;
         } else {
-            dis = 0;
+            System.out.println("Tidak ada diskon");
         }
-
-        return dis;
     }
 
-    int hitungHargaBayar(int tot, int dis) {
-        int hargaDis = tot * dis;
-        int hargaBayar = tot - hargaDis;
-
-        return hargaBayar;
+    void hitungHargaBayar() {
+        bayar = total - dis;
     }
 
-    Buku12 bukuMahasiswa = new Buku12("JudulBuku", "PengarangBuku", 200, 10, 50000);
+    // Buku12 bukuMahasiswa = new Buku12("JudulBuku", "PengarangBuku", 200, 10,
+    // 50000);
 
 }
