@@ -56,23 +56,24 @@ public class Buku12 {
 <img src="per2_1.png" width="600px">
 ---
 - Pertanyaan: <br>
-    1. Sebutkan dua karakteristik class atau object!
-    2. Perhatikan class Buku pada Praktikum 1 tersebut, ada berapa atribut yang dimiliki oleh class Buku? Sebutkan apa saja atributnya!
-    3. Ada berapa method yang dimiliki oleh class tersebut? Sebutkan apa saja methodnya!
-    4.	Perhatikan method terjual() yang terdapat di dalam class Buku. Modifikasi isi method tersebut sehingga proses pengurangan hanya dapat dilakukan jika stok masih ada (lebih besar dari 0)!
-    5.	Menurut Anda, mengapa method restock() mempunyai satu parameter berupa bilangan int?
+    1. Sebutkan dua karakteristik class atau object!<br>
+    2. Perhatikan class Buku pada Praktikum 1 tersebut, ada berapa atribut yang dimiliki oleh class Buku? Sebutkan apa saja atributnya!<br>
+    3. Ada berapa method yang dimiliki oleh class tersebut? Sebutkan apa saja methodnya!<br>
+    4.	Perhatikan method terjual() yang terdapat di dalam class Buku. Modifikasi isi method tersebut sehingga proses pengurangan hanya dapat dilakukan jika stok masih ada (lebih besar dari 0)!<br>
+    5.	Menurut Anda, mengapa method restock() mempunyai satu parameter berupa bilangan int?<br>
 - Jawaban: <br>
-    1. Object memiliki karakteristik, yaitu atribut dan behavior.
-    2. Ada 5, yaitu judul, pengarang, halaman dan stok.
-    3. Ada 4 method, yaitu tampilInformasi(), terjual(int jml), restock(int n), gantiHarga(int hrg)
-    4.	```
+    1. Object memiliki karakteristik, yaitu atribut dan behavior.<br>
+    2. Ada 5, yaitu judul, pengarang, halaman dan stok.<br>
+    3. Ada 4 method, yaitu tampilInformasi(), terjual(int jml), restock(int n), gantiHarga(int hrg)<br>
+    4.	
+    ```
         void terjual(int jml) {
         if (jml > 0) {
             stok -= jml;
         } 
         } 
-        ```
-    5.	Parameter tersebut digunakan untuk mengetahui jumlah buku saat ini. Dan kenapa int, karena tipedata jumlah juga merupakan int
+    ```
+    5.	Parameter tersebut digunakan untuk mengetahui jumlah buku saat ini. Dan kenapa int, karena tipedata jumlah juga merupakan int<br>
 
 ### Percobaan 2 :
 
@@ -101,9 +102,9 @@ public class BukuMain12 {
 <img src="per2_2.png" width="250px">
 
 - Pertanyaan: <br>
-    1.	Pada class BukuMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?
-    2.	Bagaimana cara mengakses atribut dan method dari suatu objek?
-    3.	Mengapa hasil output pemanggilan method tampilInformasi() pertama dan kedua berbeda?
+    1.	Pada class BukuMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?<br>
+    2.	Bagaimana cara mengakses atribut dan method dari suatu objek?<br>
+    3.	Mengapa hasil output pemanggilan method tampilInformasi() pertama dan kedua berbeda?<br>
 
 
 - Jawaban: <br>
@@ -119,7 +120,7 @@ public class BukuMain12 {
         bk1.judul = "Today Ends Tomorrow Comes"; // Mengakses atribut judul
         bk1.tampilInformasi(); // Memanggil method tampilInformasi()
         ```
-    3.	Hasil output berbeda karena perbedaan nilai atribut dari objek pada pemanggilan pertama dan kedua
+    3.	Hasil output berbeda karena perbedaan nilai atribut dari objek pada pemanggilan pertama dan kedua<br>
 ### Percobaan 3 :
 - Source code:<br>
 ```
@@ -170,17 +171,17 @@ public class Buku12 {
 <img src="per2_3.png" width="300px">
 ---
 - Pertanyaan: <br>
-    1.	Pada class Buku di Percobaan 3, tunjukkan baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter!
-    2.	Perhatikan class BukuMain. Apa sebenarnya yang dilakukan pada baris program berikut?
+    1.	Pada class Buku di Percobaan 3, tunjukkan baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter!<br>
+    2.	Perhatikan class BukuMain. Apa sebenarnya yang dilakukan pada baris program berikut?<br>
     ```
     Buku bk2 = new Buku("Self Reward", "Maheera Ayesha", 160, 59000);
     ```
-    3.	Hapus konstruktor default pada class Buku, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!
-    4.	Setelah melakukan instansiasi object, apakah method di dalam class Buku harus diakses secara berurutan? Jelaskan alasannya!
-    5.	Buat object baru dengan nama buku <NamaMahasiswa> menggunakan konstruktor berparameter dari class Buku!
+    3.	Hapus konstruktor default pada class Buku, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!<br>
+    4.	Setelah melakukan instansiasi object, apakah method di dalam class Buku harus diakses secara berurutan? Jelaskan alasannya!<br>
+    5.	Buat object baru dengan nama buku <NamaMahasiswa> menggunakan konstruktor berparameter dari class Buku!<br>
 
 - Jawaban: <br>
-    1.	Pendeklarasian konstruktor berparameter:
+    1.	Pendeklarasian konstruktor berparameter:<br>
     ```
     public Buku12(String jud, String pg, int hal, int stok, int har) {
     judul = jud;
@@ -190,12 +191,12 @@ public class Buku12 {
     harga = har;
     }
     ```
-    2.	Kode tersebut digunakan untuk instansiasi bk2 dari kelas Buku yang berparameter.
-    3.	Jika konstruktor default dihapus akan terjadi error karena tidak ada konstruktor tanpa parameter yang tersedia untuk digunakan saat membuat objek.
+    2.	Kode tersebut digunakan untuk instansiasi bk2 dari kelas Buku yang berparameter.<br>
+    3.	Jika konstruktor default dihapus akan terjadi error karena tidak ada konstruktor tanpa parameter yang tersedia untuk digunakan saat membuat objek.<br>
     
         <img src="per2_31.png" width="300px">
 
-    4.	Tidak perlu, setelah melakukan instansiasi bisa langsung diakses
+    4.	Tidak perlu, setelah melakukan instansiasi bisa langsung diakses<br>
     5.	
     ```
     Buku12 bukuMahasiswa = new Buku12("JudulBuku", "PengarangBuku", 200, 10, 50000);
@@ -264,9 +265,9 @@ public class Buku12 {
     }
    ```
 - Hasil Output<br>
-  <img src="per2_4.png" width="300px">
-### Percobaan 2 :
-- Source Code
+  <img src="per2_4.png" width="300px"><br>
+### Percobaan 2 :<br>
+- Source Code<br>
   1. Dragon.java
     ```
         package Algoritma.Pertemuan02;
