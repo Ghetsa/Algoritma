@@ -2,7 +2,7 @@ package Algoritma.Pertemuan03;
 
 import java.util.Scanner;
 
-public class Mahasiswa {
+public class DataMhs {
 
     public static class Mahasiswa {
         public String nama;
