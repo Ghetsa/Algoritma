@@ -1,6 +1,6 @@
 package Algoritma.Pertemuan05.BruteForceDivideConquer.Latihan;
 
-public class praktikum01 {
+public class Praktikum01 {
     private static int MaxTopACC(int[] arr, int l, int r) {
         if (l == r) {
             return arr[l];
