@@ -6,10 +6,13 @@ import java.util.Scanner;
 public class Faktorial {
     int iNilai;
 
-    int faktorialBF(int n) {
+    int faktorialBF(int n){
         int fakto = 1;
-        for (int i = 1; i <= n; i++) {
-            fakto = fakto * i;
+        int i = 1;
+
+        while (i <= n){
+            fakto *= i;
+            i++;
         }
         return fakto;
     }
