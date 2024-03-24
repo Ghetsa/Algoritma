@@ -1,4 +1,4 @@
-# Laporan Praktikum Pertemuan 3
+# Laporan Praktikum Pertemuan 5
 
 <b>NAMA : GHETSA RAMADHANI RISKA ARRYANTI</b><br>
 <b>KELAS : TI-1H</b><br>
@@ -91,15 +91,64 @@ faktorial suatu angka menggunakan 2 jenis algoritma, Brute Force dan Divide and 
 
 
 - Jawaban: <br>
-    1. <br>
-    2. <br>
-    3. <br>
+    1. `return lsum + rsum + arr[mid];` digunakan mengembalikan nilai dari total keuntungan yang sudah dijumlahkan terlebih dahulu<br>
+    2. variable `mid` digunakan untuk mencari nilai tengah yang akan digunakan untuk membagi permasalahan menjadi 2 bagian<br>
+    3. 
+    ```
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Scanner dob = new Scanner(System.in);
+
+        System.out.println("========================================================");
+        System.out.println("|         PROGRAM HITUNG KEUNTUNGAN PERUSAHAAN         |");
+        System.out.println("--------------------------------------------------------");
+        System.out.print("Masukkan Banyak Perusahaan : ");
+        int perusahaan = sc.nextInt();
+        Sum sm[] = new Sum[perusahaan];
+
+        for (int i = 0; i < perusahaan; i++) {
+            System.out.println("--------------------------------------------------------");
+            System.out.print("Masukkan Jumlah Bulan Perusahaan " + (i + 1) + " : ");
+            int elemen = sc.nextInt();
+            sm[i] = new Sum(elemen);
+            System.out.println("--------------------------------------------------------");
+            System.out.println("Satuan juta, misal 1,1 -> gunakan koma(,)");
+            for (int j = 0; j < sm[i].elemen; j++) {
+                System.out.print("Masukkan Keuntungan Bulan ke-" + (j + 1) + " : ");
+                sm[i].keuntungan[j] = dob.nextDouble();
+            }
+        }
+
+        System.out.println("--------------------------------------------------------");
+        System.out.println("Algoritma Brute Force");
+        for (int i = 0; i < sm.length; i++) {
+            System.out.println(
+                    "Total Keuntungan Perusahaan " + (i + 1) + " Selama " + sm[i].elemen + " Bulan adalah "
+                            + sm[i].totalBF(sm[i].keuntungan));
+        }
+
+        System.out.println("--------------------------------------------------------");
+        System.out.println("Algoritma Divide and Conquer");
+        for (int i = 0; i < sm.length; i++) {
+            System.out.println(
+                    "Total Keuntungan Perusahaan " + (i + 1) + " Selama " + sm[i].elemen + " Bulan adalah "
+                            + sm[i].totalDC(sm[i].keuntungan, 0, sm[i].elemen - 1));
+        }
+        System.out.println("========================================================");
+
+    }
+    ```
+    <br>
+    Hasil output setelah modifikasi:
+
+    <center><img src="per5_31.png" width="300px">
+
 
 
 ## PRAKTIKUM 
 ### Latihan 1 :
 - Soal<br>
-    Sebuah showroom memiliki daftar mobil dengan data sesuai tabel di bawah ini!!
+    Sebuah showroom memiliki daftar mobil dengan data sesuai tabel di bawah ini!!<br>
     <img src="per5_tab.png" width="300px"><br>
 
     Tentukan:
@@ -107,5 +156,5 @@ faktorial suatu angka menggunakan 2 jenis algoritma, Brute Force dan Divide and 
     b. top_acceleration terendah menggunakan Divide and Conquer!
     c. Rata-rata top_power dari seluruh mobil menggunakan Brute Force!
 - Hasil Output<br>
-  <img src="per5_4.png" width="300px"><br>
+  <center><img src="per5_4.png" width="300px"><br></center>
 
