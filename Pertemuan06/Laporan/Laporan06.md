@@ -29,7 +29,7 @@ akan dibuat sebagai acuan dalam membuat kode program class Mahasiswa.<br>
     2. Di dalam method bubbleSort(), terdapat baris program seperti di bawah ini:<br>
     <img src="per6_15.png" width="400px" ><br>
     Untuk apakah proses tersebut?<br>
-    3. Perhatikan perulangan di dalam bubbleSort() di bawah ini:
+    3. Perhatikan perulangan di dalam bubbleSort() di bawah ini:<br>
     <img src="per6_16.png" width="400px" ><br>
        *   Apakah perbedaan antara kegunaan perulangan i dan perulangan j? 
        *   Mengapa syarat dari perulangan i adalah i<listMhs.length-1 ?
@@ -111,7 +111,7 @@ akan dibuat sebagai acuan dalam membuat kode program class Mahasiswa.<br>
 
 
 ## PRAKTIKUM 
-### Latihan 1 :
+### Latihan  :
 - Soal<br>
     Sebuah platform travel yang menyediakan layanan pemesanan kebutuhan travelling sedang mengembangkan backend untuk sistem pemesanan/reservasi akomodasi (penginapan), salah satu fiturnya adalah menampilkan daftar penginapan yang tersedia berdasarkan pilihan filter yang diinginkan user. Daftar penginapan ini harus dapat disorting berdasarkan 
     1. Harga dimulai dari harga termurah ke harga tertinggi. 
@@ -121,5 +121,13 @@ akan dibuat sebagai acuan dalam membuat kode program class Mahasiswa.<br>
 
 
 - Hasil Output<br>
-  <center><img src="per5_4.png" width="300px"><br></center>
+  
+  1. Tampilan awal (Menu Utama): <br><img src="per6_41.png" width="300px"><br></center>
+  2. Tampilan Sorting Berdasarkan HARGA (BUBBLE SORT): <br><img src="per6_42.png" width="300px"><br></center>
+  3. Tampilan Sorting Berdasarkan HARGA (SELECTION SORT): <br><img src="per6_43.png" width="300px"><br></center>
+  4. Tampilan Sorting Berdasarkan BINTANG (BUBBLE SORT): <br><img src="per6_44.png" width="300px"><br></center>
+  5. Tampilan Sorting Berdasarkan BINTANG (SELECTION SORT): <br><img src="per6_45.png" width="300px"><br></center>
+  6. Tampilan kembali ke menu utama: <br><img src="per6_461.png" width="300px"><br></center>
+  7. Tampilan Saat Inputan Salah: <br><img src="per6_47.png" width="300px"><br></center>
+  8. Tampilan Saat Keluar Program: <br><img src="per6_48.png" width="300px"><br></center>
 
