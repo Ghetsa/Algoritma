@@ -56,8 +56,8 @@ akan dibuat sebagai acuan dalam membuat kode program class Mahasiswa.<br>
     <center><img src="per6_22.png" width="300px" ></center>
 - Output yang berhasil dibuat untuk percobaan 2<br>
     <center><img src="per6_13.png" width="300px" ></center>
-    <center><img src="per6_2.png" width="300px" ></center>
 
+  <center><img src="per6_2.png" width="300px" ></center>
 
 - Pertanyaan: <br>
     1.	Di dalam method selection sort, terdapat baris program seperti di bawah ini:<br>
@@ -82,7 +82,7 @@ akan dibuat sebagai acuan dalam membuat kode program class Mahasiswa.<br>
     <center><img src="per6_32.png" width="300px" ></center>
 - Output yang berhasil dibuat untuk percobaan 2<br>
     <center><img src="per6_13.png" width="300px" ></center>
-    <center><img src="per6_32.png" width="300px" ></center>
+    <center><img src="per6_33.png" width="300px" ></center>
 ---
 - Pertanyaan: <br>
     1.	 Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting dengan cara descending.<br>
