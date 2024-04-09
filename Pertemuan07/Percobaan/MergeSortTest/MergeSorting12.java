@@ -24,7 +24,7 @@ public class MergeSorting12 {
             }
             c++;
         }
-        
+
         while (a <= middle) {
             data[c] = temp[a];
             a++;
@@ -45,6 +45,6 @@ public class MergeSorting12 {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
-        System.out.println();
+        System.out.println("|");
     }
 }
