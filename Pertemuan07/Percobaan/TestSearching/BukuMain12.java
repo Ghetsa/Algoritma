@@ -8,7 +8,7 @@ public class BukuMain12 {
         Scanner s1 = new Scanner(System.in);
 
         PencarianBuku12 data = new PencarianBuku12();
-        int jumBuku = 5;
+        int jumBuku = 2;
 
         System.out.println("----------------------------------------------");
         System.out.println("| Masukkan Data Buku dari Kode Buku Terkecil |");
@@ -52,7 +52,7 @@ public class BukuMain12 {
         data.TampilData(cari, posisi);
         System.out.println("----------------------------------------------\n");
 
-        System.out.println("\n----------------------------------------------");
+        System.out.println("----------------------------------------------");
         System.out.println("| Menggunakan Binary Search                  |");
         posisi = data.FindBinarySearch(cari, 0, jumBuku - 1);
         data.TampilPosisi(cari, posisi);
@@ -61,7 +61,8 @@ public class BukuMain12 {
         } else {
             System.out.println("----------------------------------------------");
             System.out.println("!!!          Data Tidak Ditemukan          !!!");
-            System.out.println("----------------------------------------------");
         }
+        System.out.println("----------------------------------------------");
+
     }
 }

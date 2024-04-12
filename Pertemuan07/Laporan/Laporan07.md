@@ -20,11 +20,18 @@ sebagai acuan dalam membuat kode program class Buku dan PencarianBuku berikut in
 - Output yang diharapkan untuk percobaan 1<br>
     <center><img src="per7_13.png" width="300px" ></center>
     <center><img src="per7_14.png" width="300px" ></center>
+    
+    Data Ditemukan
+
     <center><img src="per7_15.png" width="300px" ></center>
+    
+    Data Tidak Ditemukan
+
     <center><img src="per7_16.png" width="300px" ></center>
 - Output yang berhasil dibuat untuk percobaan 1<br>
     <center><img src="per7_19.png" width="300px" ></center>
     <center><img src="per7_191.png" width="300px" ></center>
+
     Data Ditemukan
 
     <center><img src="per7_17.png" width="300px" ></center>
@@ -54,17 +61,15 @@ sebagai acuan dalam membuat kode program class Buku dan PencarianBuku berikut in
 ### Percobaan 2 :
 
 - Output yang diharapkan untuk percobaan 2<br>
-    <center><img src="per6_21.png" width="300px" ></center>
+    <center><img src="per7_21.png" width="300px" ></center>
 - Output yang berhasil dibuat untuk percobaan 2<br>
-    <center><img src="per6_13.png" width="300px" ></center>
-    <center><img src="per6_2.png" width="300px" ></center>
-
+    <center><img src="per7_2.png" width="300px" ></center>
 
 - Pertanyaan: <br>
     1.	Tunjukkan pada kode program yang mana proses divide dijalankan!<br>
     2.	Tunjukkan pada kode program yang mana proses conquer dijalankan!<br>
     3.	 Jika data Kode Buku yang dimasukkan tidak urut. Apakah program masih dapat berjalan? Mengapa demikian! Tunjukkan hasil screenshoot untuk bukti dengan kode Buku yang acak. Jelaskan Mengapa hal tersebut bisa terjadi?<br>
-    4.	Jika Kode Buku yang dimasukkan dari Kode Buku terbesar ke terkecil (missal : 20215, 20214, 20212, 20211, 20210) dan elemen yang dicari adalah 20210. Bagaimana hasil dari binary search? Apakah sesuai? Jika tidak sesuai maka ubahlah kode program binary seach agar hasilnya sesuai!<br>
+    <!-- 4.	Jika Kode Buku yang dimasukkan dari Kode Buku terbesar ke terkecil (missal : 20215, 20214, 20212, 20211, 20210) dan elemen yang dicari adalah 20210. Bagaimana hasil dari binary search? Apakah sesuai? Jika tidak sesuai maka ubahlah kode program binary seach agar hasilnya sesuai!<br> -->
 
 
 
@@ -79,7 +84,7 @@ sebagai acuan dalam membuat kode program class Buku dan PencarianBuku berikut in
         return FindBinarySearch(cari, mid + 1, right);
         }
         ```
-    <br>
+
     3. Program akan tetap berjalan tetapi hasil searching tidak akan konsisten/tidak sesuai karena data yang tidak urut<br>
      - Akan ditemukan jika nilai yang dicari berada di tengah array(ditemukan saat perulangan pertama)<br>
       <center><img src="per7_2jwb1.png" width="300px" ></center>
@@ -87,7 +92,7 @@ sebagai acuan dalam membuat kode program class Buku dan PencarianBuku berikut in
      - Tidak ditemukan jika nilai yang dicari berada di ujung array<br>
       <center><img src="per7_2jwb3.png" width="300px" ></center>
       <center><img src="per7_2jwb4.png" width="300px" ></center>
-    4. <br>
+    <!-- 4. <br> -->
 
 
 ### Percobaan 3 :

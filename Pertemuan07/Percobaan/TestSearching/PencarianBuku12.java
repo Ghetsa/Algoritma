@@ -1,7 +1,7 @@
 package Algoritma.Pertemuan07.Percobaan.TestSearching;
 
 public class PencarianBuku12 {
-    Buku12 listBk[] = new Buku12[5];
+    Buku12 listBk[] = new Buku12[2];
     int idx;
 
     void tambah(Buku12 m) {
@@ -23,16 +23,14 @@ public class PencarianBuku12 {
     public void TampilData(int x, int pos) {
         System.out.println("----------------------------------------------");
         if (pos != -1) {
-            System.out.printf("|%-15s| %-27s|%n", "Kode Buku", x);
+            System.out.printf("|%-15s| %-27s|%n", "Kode Buku", listBk[pos].kodeBuku);
             System.out.printf("|%-15s| %-27s|%n", "Judul Buku", listBk[pos].judulBuku);
-            System.out.printf("|%-15s| %-27s|%n", "Judul Buku", listBk[pos].tahunTerbit);
-            System.out.printf("|%-15s| %-27s|%n", "Judul Buku", listBk[pos].pengarang);
-            System.out.printf("|%-15s| %-27s|%n", "Judul Buku", listBk[pos].stock);
+            System.out.printf("|%-15s| %-27s|%n", "Tahun Terbit", listBk[pos].tahunTerbit);
+            System.out.printf("|%-15s| %-27s|%n", "Pengarang", listBk[pos].pengarang);
+            System.out.printf("|%-15s| %-27s|%n", "Stok", listBk[pos].stock);
         } else {
             System.out.println("!!!          Data Tidak Ditemukan          !!!");
         }
-        System.out.println("----------------------------------------------");
-
     }
 
     public int FindSeqSearch(int cari) {
