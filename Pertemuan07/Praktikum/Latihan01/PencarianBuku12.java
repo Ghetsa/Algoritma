@@ -1,7 +1,7 @@
 package Algoritma.Pertemuan07.Praktikum.Latihan01;
 
 public class PencarianBuku12 {
-    Buku12 listBk[] = new Buku12[3];
+    Buku12 listBk[] = new Buku12[5];
     int idx;
 
     void tambah(Buku12 m) {

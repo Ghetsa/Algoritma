@@ -85,6 +85,12 @@ public class BukuMain12 {
                                 System.out.println("\n----------------------------------------------");
                                 System.out.println("|          Menggunakan Binary Search         |");
                                 System.out.println("----------------------------------------------");
+                                data.bubbleSort();
+                                System.out.println("----------------------------------------------");
+                                System.out.println("| Data Setelah Sorting Buku:                 |");
+                                data.tampil();
+                                System.out.println("----------------------------------------------");
+                                System.out.println("\n----------------------------------------------");
                                 posisi = data.FindBinarySearch(cari, 0, jumBuku - 1);
                                 data.TampilPosisi(posisi);
                                 data.TampilData(posisi);
@@ -92,6 +98,10 @@ public class BukuMain12 {
 
                                 break;
                             case 0:
+                                System.out.println("");
+                                System.out.println("----------------------------------------------");
+                                System.out.println("|            Kembali ke Menu Utama           |");
+                                System.out.println("----------------------------------------------");
                                 System.out.println("");
                                 stop1 = false;
                                 break;
@@ -149,13 +159,14 @@ public class BukuMain12 {
                                 System.out.println("|          Menggunakan Binary Search         |");
                                 System.out.println("----------------------------------------------");
                                 data.bubbleSort();
-                                System.out.println("----------------------------------------------");
-                                System.out.println("| Data Setelah Sorting Buku:                 |");
-                                data.tampil();
-                                System.out.println("----------------------------------------------");
-                                System.out.println("\n----------------------------------------------");
-
                                 posisi = data.FindBinaryJudul(cari2, 0, jumBuku - 1);
+                                if (posisi != -1) {
+                                    System.out.println("----------------------------------------------");
+                                    System.out.println("| Data Setelah Sorting Buku:                 |");
+                                    data.tampil();
+                                    System.out.println("----------------------------------------------");
+                                }
+
                                 data.TampilPosisi(posisi);
                                 data.TampilData(posisi);
                                 System.out.println("----------------------------------------------\n");
@@ -163,6 +174,10 @@ public class BukuMain12 {
                                 break;
 
                             case 0:
+                                System.out.println("");
+                                System.out.println("----------------------------------------------");
+                                System.out.println("|            Kembali ke Menu Utama           |");
+                                System.out.println("----------------------------------------------");
                                 System.out.println("");
                                 stop2 = false;
                                 break;
@@ -174,12 +189,16 @@ public class BukuMain12 {
                     break;
 
                 case 0:
+                    System.out.println("----------------------------------------------");
+                    System.out.println("|         !!! KELUAR DARI PROGRAM !!!        |");
+                    System.out.println("----------------------------------------------");
                     stop = false;
                     break;
 
                 default:
-                    System.out.println("!!! Inputan Anda Salah !!!");
-
+                    System.out.println("----------------------------------------------");
+                    System.out.println("|          !!! INPUTAN ANDA SALAH !!!        |");
+                    System.out.println("----------------------------------------------");
                     break;
             }
 

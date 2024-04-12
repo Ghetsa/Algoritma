@@ -10,7 +10,7 @@ public class BukuMain12 {
         int posisi;
 
         PencarianBuku12 data = new PencarianBuku12();
-        int jumBuku = 3;
+        int jumBuku = 5;
 
         System.out.println("----------------------------------------------");
         System.out.println("| Masukkan Data Buku dari Kode Buku Terkecil |");
@@ -90,6 +90,10 @@ public class BukuMain12 {
                                 break;
                             case 0:
                                 System.out.println("");
+                                System.out.println("----------------------------------------------");
+                                System.out.println("|            Kembali ke Menu Utama           |");
+                                System.out.println("----------------------------------------------");
+                                System.out.println("");
                                 stop1 = false;
                                 break;
 
@@ -111,6 +115,9 @@ public class BukuMain12 {
                     break;
 
                 case 0:
+                    System.out.println("----------------------------------------------");
+                    System.out.println("|         !!! KELUAR DARI PROGRAM !!!        |");
+                    System.out.println("----------------------------------------------");
                     stop = false;
                     break;
 

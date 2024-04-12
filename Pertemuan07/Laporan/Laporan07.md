@@ -110,6 +110,39 @@ sebagai acuan dalam membuat kode program class Buku dan PencarianBuku berikut in
 
 - Hasil Output<br>
   
-  1. OUTPUT LATIHAN PRAKTIKUM NO.1: <br><img src="per6_41.png" width="300px"><br></center>
-  
-  2. OUTPUT LATIHAN PRAKTIKUM NO.2: <br><img src="per6_41.png" width="300px"><br></center>
+  1. OUTPUT LATIHAN PRAKTIKUM NO.1: <br>
+     1. Tampilan Saat Input Data Buku <br> <center><img src="per7_lat11.png" width="300px"><br></center>
+     2. Tampilan Keseluruhan Data Buku<br><center><img src="per7_lat12.png" width="300px"><br></center>
+     3. Tampilan Menu Utama <br><center><img src="per7_lat13.png" width="300px"><br></center>
+     4. Tampilan Pencarian Kode Buku <br><center><img src="per7_lat14.png" width="300px"><br></center>
+        - Menggunakan Sequential Search <br>
+          - Data Ditemukan <br><center><img src="per7_lat15.png" width="300px"></center>
+          - Data Tidak Ditemukan <br><center><img src="per7_seqslh.png" width="300px"><br></center>
+        - Menggunakan Binary Search <br>
+          - Data Ditemukan <br><center><img src="per7_lat16.png" width="300px"></center>
+          - Data Tidak Ditemukan <br><center><img src="per7_binslh.png" width="300px"></center>
+     5. Tampilan Saat Inputan Salah <br><center><img src="per7_inputsalah.png" width="300px"><br></center>
+     6. Tampilan Saat Kembali Ke Menu Utama <br><center><img src="per7_back.png" width="300px"><br></center>
+     7. Tampilan Saat Keluar Program <br><center><img src="per7_out.png" width="300px"><br></center>
+    
+  2. OUTPUT LATIHAN PRAKTIKUM NO.2: <br>
+     1. Tampilan Saat Input Data Buku<br> <center><img src="per7_lat21.png" width="300px"><br></center>
+     2. Tampilan Keseluruan Data Buku<br><center><img src="per7_lat22.png" width="300px"><br></center>
+     3. Tampilan Menu Utama <br><center><img src="per7_lat23.png" width="300px"><br></center>
+     4. Tampilan Pencarian Kode Buku 
+        - Menggunakan Sequential Search <br>
+          - Data Ditemukan <br><center><img src="per7_lat24.png" width="300px"></center>
+          - Data Tidak Ditemukan <br><center><img src="per7_seqslh.png" width="300px"><br></center>
+        - Menggunakan Binary Search <br>
+          - Data Ditemukan <br><center><img src="per7_lat25.png" width="300px"></center><br><center><img src="per7_lat26.png" width="300px"><br></center>
+          - Data Tidak Ditemukan <br><center><img src="per7_binslh.png" width="300px"></center>
+     5. Tampilan Pencarian Judul Buku
+        - Menggunakan Sequential Search <br>
+          - Data Ditemukan <br><center><img src="per7_lat27.png" width="300px"></center>
+          - Data Tidak Ditemukan <br><center><img src="per7_seqslh.png" width="300px"><br></center>
+        - Menggunakan Binary Search <br>
+          - Data Ditemukan <br><center><img src="per7_lat28.png" width="300px"></center><br><center><img src="per7_lat29.png" width="300px"><br></center>
+          - Data Tidak Ditemukan <br><center><img src="per7_binslh.png" width="300px">
+     6. Tampilan Saat Inputan Salah <br><center><img src="per7_inputsalah.png" width="300px"><br></center>
+     7. Tampilan Saat Kembali Ke Menu Utama <br><center><img src="per7_back.png" width="300px"><br></center>
+     8. Tampilan Saat Keluar Program <br><center><img src="per7_out.png" width="300px"><br></center>  
