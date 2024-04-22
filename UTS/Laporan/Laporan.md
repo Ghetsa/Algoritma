@@ -7,9 +7,19 @@
 
 MENU UTAMA
 <center><img src="menuutama.png" width="400px" ></center>
+
+
 MENU TAMPILKAN DATA
 <center><img src="menu1.png" width="400px" ></center>
+
+
 MENU SEARCHING
+- Data Ditemukan
 <center><img src="menu2.png" width="400px" ></center>
+
+- Data Tidak Ditemukan
+<center><img src="menu2_tidakditemukan.png" width="400px" ></center>
+
+
 MENU SORTING
 <center><img src="menu3.png" width="400px" ></center>
