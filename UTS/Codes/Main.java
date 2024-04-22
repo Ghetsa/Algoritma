@@ -33,12 +33,15 @@ public class Main {
                     break;
                 case 2:
                     System.out.println("----------------------------------------------");
-                    System.out.println("| Pencarian Data:                            |");
+                    System.out.println("|                 SEARCHING                  |");
                     System.out.print("| Masukkan Jumlah Penjualan yang Dicari: ");
                     int cari = sc.nextInt();
+                    System.out.println("----------------------------------------------");
+
 
                     System.out.println("\n----------------------------------------------");
-                    System.out.println("| Menggunakan Binary Search                  |");
+                    System.out.println("|               BINARY SEARCH                |");
+
                     posisi = data.FindBinarySearch(cari, 0, jmlData - 1);
                     data.TampilPosisi(cari, posisi);
                     data.TampilData(posisi);
@@ -48,7 +51,7 @@ public class Main {
 
                 case 3:
                     System.out.println("----------------------------------------------");
-                    System.out.println("| Insertion Sort:                            |");
+                    System.out.println("|             INSERTION SORTING              |");
                     data.insertionSort();
                     data.tampil();
                     break;
