@@ -38,7 +38,6 @@ public class Main {
                     int cari = sc.nextInt();
                     System.out.println("----------------------------------------------");
 
-
                     System.out.println("\n----------------------------------------------");
                     System.out.println("|               BINARY SEARCH                |");
 

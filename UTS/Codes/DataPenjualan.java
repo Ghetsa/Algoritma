@@ -75,7 +75,7 @@ public class DataPenjualan {
             if (cari == listJual[mid].penjualan) {
                 return mid;
             } else if (listJual[mid].penjualan > cari) {
-                return FindBinarySearch(cari, left, mid);
+                return FindBinarySearch(cari, left, mid - 1);
             } else {
                 return FindBinarySearch(cari, mid + 1, right);
 
