@@ -1,4 +1,4 @@
-package Algoritma.Pertemuan08.Percobaan;
+package Algoritma.Pertemuan08.Percobaan.Percobaan1_2;
 
 
 public class StackKonversi {

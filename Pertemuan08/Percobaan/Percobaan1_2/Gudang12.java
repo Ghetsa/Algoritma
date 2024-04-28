@@ -1,4 +1,4 @@
-package Algoritma.Pertemuan08.Percobaan;
+package Algoritma.Pertemuan08.Percobaan.Percobaan1_2;
 
 public class Gudang12 {
     Barang12 listBarang[] = new Barang12[7];
@@ -36,14 +36,19 @@ public class Gudang12 {
         } else {
             System.out.println("Gagal! Tumpukan barang di Gudang sudah Penuh!!");
         }
+        System.out.println("----------------------------------------------");
+
     }
 
     public void ambilBarang() {
         if (!cekKosong()) {
             Barang12 delete = tumpukan[top];
             top--;
-            System.out.println("Barang " + delete.nama + " berhasil diambil ke Gudang");
-            System.out.println("Kode unik dalam biner: " + konversiDesimalKeBiner(delete.kode));
+            System.out.println("----------------------------------------------");
+            System.out.printf("|%-43s %s|%n", " Barang [" + delete.nama + "] berhasil diambil ke Gudang", "");
+            System.out.printf("|%-27s| %-15s|%n", " Kode unik dalam biner", konversiDesimalKeBiner(delete.kode));
+            System.out.println("----------------------------------------------");
+
         } else {
             System.out.println("Gagal! Tumpukan barang di Gudang Kosong!!");
         }
