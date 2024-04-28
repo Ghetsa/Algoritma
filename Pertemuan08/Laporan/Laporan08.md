@@ -78,7 +78,22 @@
 
 
 - Jawaban: <br>
-    1. <br> 
+    1. Tidak akan terdapat perubahan karena hasilnya akan tetap sama karena pembagian bilangan desimal oleh 2 dilakukan terus hingga sisa pembagian menjadi 0.<br> 
+    2. 
+       1. Membuat objek untuk menampung sisa pembagian
+   
+       2. Jika kode tidak sama dengan 0, akan melakukan:
+          - Memasukkan sisa pembagian ke dalam stack
+          - Membagi bilangan desimal `kode` dengan 2 untuk mendapatkan nilai baru
+          - Membuat string `biner` untuk menyimpan hasil konversi
+
+       3. Buat string biner untuk menyimpan hasil konversi.
+       
+       4. Selama stack tidak kosong, maka akan melakukan:
+          - Mengambil sisa pembagian dari stack
+          - Menambahkan sisa bagi ke string `biner`
+       
+       5. Mereturn nilai string `biner` yang telah berisi representasi bilangan biner dari bilangan desimal kode
 
 
 ### Percobaan 3: Konversi Notasi Infix ke Postfix
@@ -99,8 +114,21 @@
 
 
 - Jawaban: <br>
-    1. <br> 
+    1. Ada beberapa return value yang sama karena beberapa operator matematika memiliki prioritas yang sama, dan jika return value tersebut diubah, akan mempengaruhi dapat menyebabkan hasil tidak sesuai dengan postfix yang benar<br> 
+    2. 
+       1. Membuat string kosong `p` untuk menyimpan hasil konversi postfix.
+   
+       2. Melakukan perulangan infix `Q`
 
+       3. Melakukan pengecekan terhadap `c`:
+          - Jika c adalah operand, tambahkan karakter c ke dalam string p.
+          - Jika c adalah `(`, akan push/memasukkan ke String `p`.
+          - Jika c adalah `)`, karakter dalam stack sampai tanda kurung buka`(` akan di-`pop` / dikeluarkan ke string `p` 
+          - Jika c adalah operator, akan mem-`pop` operator dari stack yang memiliki derajat prioritas lebih tinggi/sama hingga tanda kurung buka`(` di temukan. Kemudian menambahkan operator-operator tersebut ke dalam String `p`, kemudian yang terakhir menambahkan operator `c` ke dalam stack
+       
+       4. Me-return nilai String `p` yang berisikan postfix.
+
+    3. `c = Q.charAt(i)` berfungsi untuk mengambil karakter pada indeks ke-`i` dari string `Q`
 
 
 
@@ -116,39 +144,13 @@
 
 - Hasil Output<br>
   
-  1. OUTPUT LATIHAN PRAKTIKUM NO.1: <br>
-     1. Tampilan Saat Input Data Buku <br> <center><img src="per7_lat11.png" width="300px"><br></center>
-     2. Tampilan Keseluruhan Data Buku<br><center><img src="per7_lat12.png" width="300px"><br></center>
-     3. Tampilan Menu Utama <br><center><img src="per7_lat13.png" width="300px"><br></center>
-     4. Tampilan Pencarian Kode Buku <br><center><img src="per7_lat14.png" width="300px"><br></center>
-        - Menggunakan Sequential Search <br>
-          - Data Ditemukan <br><center><img src="per7_lat15.png" width="300px"></center>
-          - Data Tidak Ditemukan <br><center><img src="per7_seqslh.png" width="300px"><br></center>
-        - Menggunakan Binary Search <br>
-          - Data Ditemukan <br><center><img src="per7_lat16.png" width="300px"></center>
-          - Data Tidak Ditemukan <br><center><img src="per7_binslh.png" width="300px"></center>
-     5. Tampilan Saat Inputan Salah <br><center><img src="per7_inputsalah.png" width="300px"><br></center>
-     6. Tampilan Saat Kembali Ke Menu Utama <br><center><img src="per7_back.png" width="300px"><br></center>
-     7. Tampilan Saat Keluar Program <br><center><img src="per7_out.png" width="300px"><br></center>
-    
-  2. OUTPUT LATIHAN PRAKTIKUM NO.2: <br>
-     1. Tampilan Saat Input Data Buku<br> <center><img src="per7_lat21.png" width="300px"><br></center>
-     2. Tampilan Keseluruan Data Buku<br><center><img src="per7_lat22.png" width="300px"><br></center>
-     3. Tampilan Menu Utama <br><center><img src="per7_lat23.png" width="300px"><br></center>
-     4. Tampilan Pencarian Kode Buku 
-        - Menggunakan Sequential Search <br>
-          - Data Ditemukan <br><center><img src="per7_lat24.png" width="300px"></center>
-          - Data Tidak Ditemukan <br><center><img src="per7_seqslh.png" width="300px"><br></center>
-        - Menggunakan Binary Search <br>
-          - Data Ditemukan <br><center><img src="per7_lat25.png" width="300px"></center><br><center><img src="per7_lat26.png" width="300px"><br></center>
-          - Data Tidak Ditemukan <br><center><img src="per7_binslh.png" width="300px"></center>
-     5. Tampilan Pencarian Judul Buku
-        - Menggunakan Sequential Search <br>
-          - Data Ditemukan <br><center><img src="per7_lat27.png" width="300px"></center>
-          - Data Tidak Ditemukan <br><center><img src="per7_seqslh.png" width="300px"><br></center>
-        - Menggunakan Binary Search <br>
-          - Data Ditemukan <br><center><img src="per7_lat28.png" width="300px"></center><br><center><img src="per7_lat29.png" width="300px"><br></center>
-          - Data Tidak Ditemukan <br><center><img src="per7_binslh.png" width="300px">
-     6. Tampilan Saat Inputan Salah <br><center><img src="per7_inputsalah.png" width="300px"><br></center>
-     7. Tampilan Saat Kembali Ke Menu Utama <br><center><img src="per7_back.png" width="300px"><br></center>
-     8. Tampilan Saat Keluar Program <br><center><img src="per7_out.png" width="300px"><br></center>  
+  1. OUTPUT LATIHAN PRAKTIKUM:
+     - Manampilkan data barang terbawah
+        <center><img src="per8_lat1.png" width="300px" ></center>
+
+     - Mencari data barang menggunakan Kode Barang
+        <center><img src="per8_lat2.png" width="300px" ></center>
+
+     - Mencari data barang menggunakan Nama Barang
+        <center><img src="per8_lat3.png" width="300px" ></center>
+        
