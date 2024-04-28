@@ -6,28 +6,28 @@ public class Utama12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Scanner scs = new Scanner(System.in);
-        // Gudang12 gudang = new Gudang12(7);
+        Gudang12 gudang = new Gudang12(7);
         boolean stop = true;
 
         System.out.println("----------------------------------------------");
         System.out.println("|      SELAMAT DATANG DI GUDANG LILISYA      |");
         System.out.println("----------------------------------------------");
-        System.out.print("| Masukkan jumlah tumpukan: ");
-        int jmlData = scs.nextInt();
-        Gudang12 gudang = new Gudang12(jmlData);
+        // System.out.print("| Masukkan jumlah tumpukan: ");
+        // int jmlData = scs.nextInt();
+        // Gudang12 gudang = new Gudang12(jmlData);
         while (stop) {
             System.out.println("==============================================");
             System.out.println("| Menu Utama:                                |");
             System.out.println("| 1. Tambah Barang                           |");
             System.out.println("| 2. Ambil Barang                            |");
             System.out.println("| 3. Tampilkan Tumpukan Barang               |");
-            System.out.println("| 4. Lihat Barang Teratas                    |");
-            System.out.println("| 5. Lihat Barang Terbawah                   |");
-            System.out.println("| 6. Cari Barang                             |");
+            // System.out.println("| 4. Lihat Barang Teratas                    |");
+            // System.out.println("| 5. Lihat Barang Terbawah                   |");
+            // System.out.println("| 6. Cari Barang                             |");
             System.out.println("| 0. Keluar                                  |");
             System.out.println("----------------------------------------------");
-            // System.out.print("| Pilih Menu (1/2/3/0) : ");
-            System.out.print("| Pilih Menu (1/2/3/4/5/6/0) : ");
+            System.out.print("| Pilih Menu (1/2/3/0) : ");
+            // System.out.print("| Pilih Menu (1/2/3/4/5/6/0) : ");
             int pilihan = sc.nextInt();
             sc.nextLine();
 

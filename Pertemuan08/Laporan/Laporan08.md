@@ -56,7 +56,7 @@
     Gudang12 gudang = new Gudang12(7);
     ```
     3. Pengecekan kondisi `!cekKosong()` diperlukan untuk memastikan bahwa tumpukan barang tidak kosong. Jika kondisi tersebut dihapus, program akan tetap dijalankan namun dapat menyebabkan hasil yang tidak relevan atau bahkan error saat mencoba menampilkan array kosong, sehingga menyebabkan `NullPointerException`.
-    4. Hasil Modifikasi
+    4. Hasil Modifikasi<br>
    <img src="per8_15.png" width="300px" > <br>
    <img src="per8_16.png" width="300px" ><br>
    

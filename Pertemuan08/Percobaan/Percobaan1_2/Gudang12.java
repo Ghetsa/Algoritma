@@ -47,9 +47,9 @@ public class Gudang12 {
             top--;
             System.out.println("==============================================");
             System.out.printf("|%-43s %s|%n", " [" + delete.nama + "] berhasil diambil ke Gudang", "");
-            System.out.println("----------------------------------------------");
-            System.out.printf("|%-27s| %-15s|%n", " Kode unik dalam biner",
-                    konversiDesimalKeBiner(delete.kode));
+            // System.out.println("----------------------------------------------");
+            // System.out.printf("|%-27s| %-15s|%n", " Kode unik dalam biner",
+                    // konversiDesimalKeBiner(delete.kode));
             System.out.println("==============================================");
 
         } else {
@@ -81,7 +81,7 @@ public class Gudang12 {
         System.out.println("|            RINCIAN TUMPUKAN BARANG         |");
         System.out.println("----------------------------------------------");
         if (!cekKosong()) {
-            for (int i = 0; i <= top; i++) {
+            for (int i = top; i >= 0; i--) {
                 System.out.printf("| Kode %-3d| Nama %-9s| Kategori %-8s|\n", tumpukan[i].kode, tumpukan[i].nama,
                         tumpukan[i].kategori);
             }
