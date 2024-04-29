@@ -21,13 +21,13 @@ public class Utama12 {
             System.out.println("| 1. Tambah Barang                           |");
             System.out.println("| 2. Ambil Barang                            |");
             System.out.println("| 3. Tampilkan Tumpukan Barang               |");
-            // System.out.println("| 4. Lihat Barang Teratas                    |");
-            // System.out.println("| 5. Lihat Barang Terbawah                   |");
-            // System.out.println("| 6. Cari Barang                             |");
+            System.out.println("| 4. Lihat Barang Teratas                    |");
+            System.out.println("| 5. Lihat Barang Terbawah                   |");
+            System.out.println("| 6. Cari Barang                             |");
             System.out.println("| 0. Keluar                                  |");
             System.out.println("----------------------------------------------");
-            System.out.print("| Pilih Menu (1/2/3/0) : ");
-            // System.out.print("| Pilih Menu (1/2/3/4/5/6/0) : ");
+            // System.out.print("| Pilih Menu (1/2/3/0) : ");
+            System.out.print("| Pilih Menu (1/2/3/4/5/6/0) : ");
             int pilihan = sc.nextInt();
             sc.nextLine();
 

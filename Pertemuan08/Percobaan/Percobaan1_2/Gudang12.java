@@ -90,7 +90,7 @@ public class Gudang12 {
         }
         System.out.println("==============================================");
     }
-
+    
     // percobaan 2
     public String konversiDesimalKeBiner(int kode) {
         StackKonversi stack = new StackKonversi();

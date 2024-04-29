@@ -31,23 +31,21 @@
 
 
 - Jawaban: <br>
-    1. Bagian yang perlu diperbaiki terletak di method `lihatBarangTeratas()` lebih tepatnya pada kondisi `if`<br>
+    1. Bagian yang perlu diperbaiki terletak di method `tampilkanBarang()` lebih tepatnya pada kondisi `for`<br>
         ```
-        public Barang12 lihatBarangTeratas() {
-            System.out.println("==============================================");
-            System.out.println("|                BARANG TERATAS              |");
-            System.out.println("----------------------------------------------");
-            if (!cekKosong()) {
-                Barang12 barangTeratas = tumpukan[top];
-                System.out.printf("|%-43s %s|%n", " Kode       | " + barangTeratas.kode, "");
-                System.out.printf("|%-43s %s|%n", " Nama       | " + barangTeratas.nama, "");
-                System.out.printf("|%-43s %s|%n", " Kategori   | " + barangTeratas.kategori, "");
-                System.out.println("==============================================");
-                return barangTeratas;
-            } else {
-                System.out.println("         !!! TUMPUKAN BARANG KOSONG !!!       ");
-                System.out.println("==============================================");
-                return null;
+        if (!cekKosong()) {
+            for (int i = 0; i <= top; i++) {
+                System.out.printf("| Kode %-3d| Nama %-9s| Kategori %-8s|\n", tumpukan[i].kode, tumpukan[i].nama,
+                        tumpukan[i].kategori);
+            }
+        } 
+        ```
+        Diubah menjadi<br>
+        ```
+        if (!cekKosong()) {
+            for (int i = top; i >= 0; i--) {
+                System.out.printf("| Kode %-3d| Nama %-9s| Kategori %-8s|\n", tumpukan[i].kode, tumpukan[i].nama,
+                        tumpukan[i].kategori);
             }
         }
         ```
