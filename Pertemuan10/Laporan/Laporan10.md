@@ -173,36 +173,36 @@
 - Hasil Output<br>
   
   1. OUTPUT LATIHAN PRAKTIKUM:
-     - Menentukan Kapasitas Queue & Menu Utama<br>
+     * Menentukan Kapasitas Queue & Menu Utama<br>
         <center><img src="per10_lat3.png" width="300px" ></center>
 
-     - Menambahkan Antrian Pembeli Baru<br>
+     * Menambahkan Antrian Pembeli Baru<br>
        - Input Berhasil<br>
-        <center><img src="per10_lat4.png" width="300px" ></center>
+            <center><img src="per10_lat4.png" width="300px" ></center>
 
        - Input Gagal<br>
-        <center><img src="per10_lat5.png" width="300px" ></center>
+            <center><img src="per10_lat5.png" width="300px" ></center>
 
-     - Menampilkan Daftar Antrian Pembeli<br>
+     * Menampilkan Daftar Antrian Pembeli<br>
         <center><img src="per10_lat6.png" width="300px" ></center>
 
-     - Menambahkan Mengeluarkan/Menghapus Antrian Pembeli Pertama<br>
+     * Menambahkan Mengeluarkan/Menghapus Antrian Pembeli Pertama<br>
         <center><img src="per10_lat7.png" width="300px" ></center>
 
-     - Menampilkan Antrian Pembeli Terdepan / Pertama<br>
+     * Menampilkan Antrian Pembeli Terdepan / Pertama<br>
         <center><img src="per10_lat8.png" width="300px" ></center>
 
-     - Menampilkan Antrian Pembeli Terbelakang / Terakhir<br>
+     * Menampilkan Antrian Pembeli Terbelakang / Terakhir<br>
         <center><img src="per10_lat9.png" width="300px" ></center>
 
-     - Mencari Pembeli Antrian Keberapa (Berdasarkan Nama)<br>
+     * Mencari Pembeli Antrian Keberapa (Berdasarkan Nama)<br>
        - Nama Pembembeli Ditemukan<br>
-        <center><img src="per10_lat10.png" width="300px" ></center>
+            <center><img src="per10_lat10.png" width="300px" ></center>
 
        - Nama Pembembeli Tidak Ditemukan<br>
-        <center><img src="per10_lat11.png" width="300px" ></center>
+            <center><img src="per10_lat11.png" width="300px" ></center>
 
-     - Menghapus Seluruh Antrian<br>
+     * Menghapus Seluruh Antrian<br>
        - Menghapus Antrian<br>
         <center><img src="per10_lat13.png" width="300px" ></center><br>
 
@@ -211,5 +211,5 @@
        - Tidak Jadi Menghapus Antrian<br>
         <center><img src="per10_lat12.png" width="300px" ></center>
 
-     - Keluar Dari Program<br>
+     * Keluar Dari Program<br>
         <center><img src="per10_lat16.png" width="300px" ></center>
