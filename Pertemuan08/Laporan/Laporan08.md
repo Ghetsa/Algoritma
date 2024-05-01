@@ -151,4 +151,4 @@
 
      - Mencari data barang menggunakan Nama Barang
         <center><img src="per8_lat3.png" width="300px" ></center>
-        
+    

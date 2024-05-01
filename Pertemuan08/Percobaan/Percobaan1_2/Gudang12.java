@@ -47,9 +47,9 @@ public class Gudang12 {
             top--;
             System.out.println("==============================================");
             System.out.printf("|%-43s %s|%n", " [" + delete.nama + "] berhasil diambil ke Gudang", "");
-            // System.out.println("----------------------------------------------");
-            // System.out.printf("|%-27s| %-15s|%n", " Kode unik dalam biner",
-                    // konversiDesimalKeBiner(delete.kode));
+            System.out.println("----------------------------------------------");
+            System.out.printf("|%-27s| %-15s|%n", " Kode unik dalam biner",
+                    konversiDesimalKeBiner(delete.kode));
             System.out.println("==============================================");
 
         } else {
