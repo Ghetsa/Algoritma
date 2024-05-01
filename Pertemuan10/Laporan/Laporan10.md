@@ -13,6 +13,7 @@
 
 - Output yang diharapkan untuk percobaan 1<br>
     <center><img src="per10_11.png" width="300px" ></center>
+
     <center><img src="per10_12.png" width="300px" ></center>
     
 - Output yang berhasil dibuat untuk percobaan 1<br>
@@ -119,6 +120,7 @@
 #### Hasil Percobaan
 - Output yang diharapkan untuk percobaan 2<br>
     <center><img src="per10_21.png" width="300px" ></center>
+    
 - Output yang berhasil dibuat untuk percobaan 2<br>
     <center><img src="per10_22.png" width="300px" ></center>
 
@@ -204,12 +206,12 @@
 
      * Menghapus Seluruh Antrian<br>
        - Menghapus Antrian<br>
-        <center><img src="per10_lat13.png" width="300px" ></center><br>
+            <center><img src="per10_lat13.png" width="300px" ></center><br>
 
-        <center><img src="per10_lat15.png" width="300px" ></center>
+            <center><img src="per10_lat15.png" width="300px" ></center>
 
        - Tidak Jadi Menghapus Antrian<br>
-        <center><img src="per10_lat12.png" width="300px" ></center>
+            <center><img src="per10_lat12.png" width="300px" ></center>
 
      * Keluar Dari Program<br>
         <center><img src="per10_lat16.png" width="300px" ></center>
