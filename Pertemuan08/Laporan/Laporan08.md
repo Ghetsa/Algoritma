@@ -144,7 +144,7 @@
   
   1. OUTPUT LATIHAN PRAKTIKUM:
      - Manampilkan data barang terbawah
-        <center><img src="per8_lat1.png" width="300px" ></center>
+        <center><img src="per8_lat111.png" width="300px" ></center>
 
      - Mencari data barang menggunakan Kode Barang
         <center><img src="per8_lat2.png" width="300px" ></center>
