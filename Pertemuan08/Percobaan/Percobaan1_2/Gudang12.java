@@ -114,7 +114,7 @@ public class Gudang12 {
         System.out.println("|                BARANG TERBAWAH              |");
         System.out.println("----------------------------------------------");
         if (!cekKosong()) {
-            Barang12 barangTerbawah = tumpukan[0];
+            Barang12 barangTerbawah = tumpukan[top];
             System.out.printf("|%-43s %s|%n", " Kode       | " + barangTerbawah.kode, "");
             System.out.printf("|%-43s %s|%n", " Nama       | " + barangTerbawah.nama, "");
             System.out.printf("|%-43s %s|%n", " Kategori   | " + barangTerbawah.kategori, "");
