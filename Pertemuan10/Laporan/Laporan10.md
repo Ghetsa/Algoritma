@@ -167,11 +167,6 @@
       -  Method daftarPembeli(): digunakan untuk menampilkan data seluruh pembeli
 
 
-    - Method lihatBarangTerbawah digunakan untuk mengecek barang pada tumpukan terbawah
-
-    - Method cariBarang digunakan untuk mencari ada atau tidaknya barang berdasarkan kode barangnya atau nama barangnya
-
-
 - Hasil Output<br>
   
   1. OUTPUT LATIHAN PRAKTIKUM:
@@ -198,10 +193,10 @@
         <center><img src="per10_lat9.png" width="300px" ></center>
 
      * Mencari Pembeli Antrian Keberapa (Berdasarkan Nama)<br>
-       - Nama Pembembeli Ditemukan<br>
+       - Nama Pembeli Ditemukan<br>
             <center><img src="per10_lat10.png" width="300px" ></center>
 
-       - Nama Pembembeli Tidak Ditemukan<br>
+       - Nama Pembeli Tidak Ditemukan<br>
             <center><img src="per10_lat11.png" width="300px" ></center>
 
      * Menghapus Seluruh Antrian<br>
