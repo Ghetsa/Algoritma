@@ -8,4 +8,5 @@ public class Node {
         data = nilai;
         next = berikutnya;
     }
+    Node(){}
 }
