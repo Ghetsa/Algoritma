@@ -21,7 +21,7 @@ public class MahasiswaMain {
             System.out.println("| 2. Hapus Antrian Mahasiswa                 |");
             System.out.println("| 3. Tampilkan Semua Antrian                 |");
             System.out.println("| 4. Cek Posisi                              |");
-            System.out.println("| 5. Hapus Semua Antrian                     |");
+            System.out.println("| 5. Cek Antrian NIM                         |");
             System.out.println("| 0. Keluar                                  |");
             System.out.println("----------------------------------------------");
             System.out.print("| Pilih Menu (1/2/3/4/5/0) : ");
@@ -212,22 +212,24 @@ public class MahasiswaMain {
                     System.out.println("----------------------------------------------");
                     System.out.print("| Masukkan INDEX Antrian (mulai 0): ");
                     int index = sc.nextInt();
+                    System.out.println("----------------------------------------------");
 
                     System.out.printf("|%-43s %s|%n",
-                            " Data index ke-" + index + "   | " + " [" + singLL.getData(index) + "]", "");
+                            " Data index ke-" + index + "   | " + " " + singLL.getData(singLL.indexOf(index)).nama + "", "");
                     System.out.println("----------------------------------------------");
 
                     break;
 
                 case 5:
                     System.out.println("==============================================");
-                    System.out.println("|        CEK ANTRIAN BERDASARKAN NIM       |");
+                    System.out.println("|         CEK ANTRIAN BERDASARKAN NIM        |");
                     System.out.println("----------------------------------------------");
-                    System.out.print("| Masukkan INDEX Antrian (mulai 0): ");
+                    System.out.print("| Masukkan NIM Mahasiswa: ");
                     int key = sc.nextInt();
                     if (singLL.indexOf(key) != -1) {
                         System.out.println("----------------------------------------------");
                         System.out.printf("| %-8s| %-8s| %-10s| %-10s %s|%n", "ANTRIAN", "INDEX", "NIM", "NAMA", "");
+                        System.out.println("----------------------------------------------");
                         System.out.printf("| %-8s| %-8s| %-10s| %-10s %s|%n", (singLL.indexOf(key) + 1),
                                 singLL.indexOf(key), key, singLL.getData(singLL.indexOf(key)).nama, "");
 

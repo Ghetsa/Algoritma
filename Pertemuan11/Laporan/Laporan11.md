@@ -29,9 +29,9 @@
        
 
 - Jawaban: <br>
-    1. <br>
-    2. <br>
-    3. <br>
+    1. Karena belum ada yang ditambahkan pada List<br>
+    2. `temp` digunakan untuk menunjukkan node sementara yang merupakan singkatan dari temporary<br>
+    3. kode tersebut digunakan untuk mengecek apakah node yang akan ditambahkan merupakan node terakhir. Dan jika iya, tail akan diubah jadi node baru<br>
    
     
 ### Percobaan 2 : Konversi Kode Barang ke Biner
@@ -56,8 +56,8 @@
 
 
 - Jawaban: <br>
-    1. Fungsi IF tersebut digunakan untuk memastikan bahwa data nasabah yang akan dikeluarkan dari antrian/queue tidak kosong dan memiliki nilai yang valid sebelum data tersebut di-print<br> 
-    2. <center><img src="per11_23.png" width="300px" ></center>
+    1. break digunakan untuk menghentikan kode setelah suatu kondisi terpenuhi<br> 
+    2. Kode tersebut digunakan untuk menghapus node yang sesuai dengan key dengan melewatkan node yang ingin dihapus dan mengubah referensi node sebelumnya (temp) untuk menunjuk ke node setelah node yang dihapus.
 
 
 ## LATIHAN 
@@ -80,10 +80,10 @@
         <center><img src="per11_lat2.png" width="300px" ></center>
 
   2. OUTPUT LATIHAN PRAKTIKUM 2:
-     * Menentukan Kapasitas Queue & Menu Utama<br>
+     1. Menu Utama<br>
         <center><img src="per11_lat3.png" width="300px" ></center>
 
-     * Menambahkan Antrian Mahasiswa Baru<br>
+     2. Menambahkan Antrian Mahasiswa Baru<br>
        - Menu Tambah Antrian<br>
             <center><img src="per11_lat4.png" width="300px" ></center>
  
@@ -97,7 +97,7 @@
          - Tambah Data Berhasil<br>
                 <center><img src="per11_lat7.png" width="300px" ></center>
 
-         - Tambah Data Berhasil<br>
+         - Tambah Data Gagal<br>
                 <center><img src="per11_lat8.png" width="300px" ></center>
 
        - Tambah Antrian Berdasarkan Index<br>
@@ -110,31 +110,29 @@
          - Tambah Data Gagal (Index Diluar Jangkauan List)<br>
             <center><img src="per11_lat11.png" width="300px" ></center>
 
-     * Menghapus Antrian Mahasiswa Baru<br>
+     3. Menghapus Antrian Mahasiswa Baru<br>
        - Menu Hapus Antrian<br>
-            <center><img src="per11_lat12.png" width="300px" ></center>
+            <center><img src="per11_lathps.png" width="300px" ></center>
  
        - Hapus Antrian Pertama<br>
-            <center><img src="per11_lat13.png" width="300px" ></center>
+            <center><img src="per11_lat12.png" width="300px" ></center>
  
        - Hapus Antrian Terakhir<br>
-            <center><img src="per11_lat14.png" width="300px" ></center>
+            <center><img src="per11_lat13.png" width="300px" ></center>
      
        - Hapus Antrian Setelah Data<br>
-         - Hapus Data Berhasil<br>
-                <center><img src="per11_lat15.png" width="300px" ></center>
-
-         - Hapus Data Berhasil<br>
-                <center><img src="per11_lat16.png" width="300px" ></center>
+            <center><img src="per11_lat14.png" width="300px" ></center>
 
        - Hapus Antrian Berdasarkan Index<br>
-         - Hapus Data Berhasil<br>
-            <center><img src="per11_lat9.png" width="300px" ></center>
+            <center><img src="per11_lat15.png" width="300px" ></center>
 
-         - Hapus Data Gagal (Index Negatif)<br>
-            <center><img src="per11_lat10.png" width="300px" ></center>
+     4. Menu Tampilkan Semua Antrian<br>
+          <center><img src="per11_lat18.png" width="300px" ></center>
 
-         - Hapus Data Gagal (Index Diluar Jangkauan List)<br>
-            <center><img src="per11_lat11.png" width="300px" ></center>
+     5. Cek Antrian Berdasarkan INDEX<br>
+          <center><img src="per11_lat19.png" width="300px" ></center>
+ 
+     6. Cek Antrian Berdasarkan NIM<br>
+          <center><img src="per11_lat20.png" width="300px" ></center>
  
      
