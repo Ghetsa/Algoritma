@@ -110,7 +110,7 @@ public class QueueMain {
                     System.out.println("----------------------------------------------");
                     if (konf == 1) {
                         antrian.clear();
-                    }else{
+                    } else {
                         System.out.println("|           KEMBALI KE MENU UTAMA            |");
                     }
                     System.out.println("----------------------------------------------");
