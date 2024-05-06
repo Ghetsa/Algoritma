@@ -220,32 +220,44 @@ public class SingleLinkedList {
     }
 
     void remove(int key) {
-        if (isEmpty()) { // if (!isEmpty()) {
+        if (isEmpty()) {
             System.out.println("----------------------------------------------");
             System.out.println("|          !! LIST ANTRIAN KOSONG !!         |");
             System.out.println("----------------------------------------------");
         } else {
+            if (head.data.nim == key) { // Jika node yang dihapus adalah node pertama
+                head = head.next; // Ubah kepala untuk menghapus node pertama
+                if (head == null) { // Jika linked list menjadi kosong setelah menghapus node pertama
+                    tail = null; // Atur tail menjadi null juga
+                }
+                System.out.println("----------------------------------------------");
+                System.out.println("|            DATA BERHASIL DIHAPUS           |");
+                System.out.println("----------------------------------------------");
+                return; // Keluar dari metode setelah menghapus node
+            }
+    
             Node temp = head;
-            while (temp != null) {
-                if (temp.data.nim == key && temp == head) { // if (temp.data != key && temp == head) {
-                    remove(key);
-                    break;
-                } else if (temp.next.data.nim == key) {
-                    temp.next = temp.next.next; // hapus node dengan skip
-                    if (temp.next == null) { // jika node terakhir, ubah tail jadi temp
+            while (temp.next != null) {
+                if (temp.next.data.nim == key) { // Jika node berikutnya yang akan dihapus
+                    temp.next = temp.next.next; // Hapus node dengan melewati node yang dihapus
+                    if (temp.next == null) { // Jika node yang dihapus adalah node terakhir, perbarui tail
                         tail = temp;
                     }
-                    break;
+                    System.out.println("----------------------------------------------");
+                    System.out.println("|            DATA BERHASIL DIHAPUS           |");
+                    System.out.println("----------------------------------------------");
+                    return; // Keluar dari metode setelah menghapus node
                 }
-                temp = temp.next;// pindah ke node berikutnya
-
+                temp = temp.next; // Pindah ke node berikutnya
             }
-
+    
+            // Jika node dengan kunci yang diberikan tidak ditemukan
             System.out.println("----------------------------------------------");
-            System.out.println("|            DATA BERHASIL DIHAPUS           |");
+            System.out.println("|      !! GAGAL! DATA TIDAK DITEMUKAN !!     |");
             System.out.println("----------------------------------------------");
         }
     }
+    
 
     public void removeAt(int index) {
         if (index == 0) {
