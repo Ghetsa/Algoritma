@@ -31,7 +31,7 @@
         ```     
     4. Pada method addFirst(), kenapa dalam pembuatan object dari konstruktor class Node prev dianggap sama dengan null? <br>
         `Node newNode = new Node(null, item, head); `<br>
-    5. Perhatikan pada method addFirst().  Apakah arti statement head.prev = newNode ?<br>
+    5. Perhatikan pada method addFirst().  Apakah arti statement `head.prev = newNode` ?<br>
     6. Perhatikan isi method addLast(), apa arti dari pembuatan object Node dengan mengisikan parameter prev dengan current, dan next dengan null? <br>
         `Node newNode = new Node(current, item, null); `<br>
     7. Pada method add(), terdapat potongan kode program sebagai berikut:<br>
@@ -40,16 +40,16 @@
 
 
 - Jawaban: <br>
-    1. <br>
-    2. <br>
-    3. <br>
-    4. <br>
-    5. <br>
-    6. <br>
-    7. <br>
+    1. Single Linked List memiliki 1 pointer yaitu next, sementara Double Linked List memiliki 2 pointer yaitu next dan prev<br>
+    2. next: digunakan untuk menunjukkan node berikutnya, prev: digunakan untuk menunjukkan node sebelumnya<br>
+    3. inisialisasi head dan size dengan `0` dan `null` dikarenakan saat membuat List pertama kali, List akan kosong <br>
+    4. Karena prev dari node pertama akan selalu `null`, jadi jika ingin menambahkan node pertama, maka harus mengatur agar prev node tersebut menjadi `null`<br>
+    5. `head.prev = newNode` digunakan untuk mengatur `head.prev` yang sebelumnya mengarah ke `null` menjadi ke node baru<br>
+    6. Mengisi `prev` dengan `current` digunakan untuk membuat `prev` dari node baru menjadi node terakhir saat ini dan `next` (node berikutnya dari node baru) menjadi null<br>
+    7. Blok kode tersebut digunakan jika current berada di awal list. Dengan membuat newNode dengan `prev` newNode adalah null dan `next` nya merupakan node pertama saat ini. Setelahnya akan membuat prev dari node pertama saat ini menjadi newNode, dan mengubah head menjadi newNode<br>
    
     
-### Percobaan 3
+### Percobaan 2
 #### Hasil Percobaan
 - Output yang diharapkan untuk percobaan 2<br>
     <center><img src="per12_21.png" width="300px" ></center>
@@ -98,7 +98,7 @@
 
 #### Pertanyaan & Jawaban
 - Pertanyaan: <br>
-    1. Jelaskan method size() pada class DoubleLinkedLists!<br>
+    1. Jelaskan method `size()` pada class DoubleLinkedLists!<br>
     2. Jelaskan cara mengatur indeks pada double linked lists supaya dapat dimulai dari indeks ke-1! <br>
     3. Jelaskan perbedaan karakteristik fungsi Add pada Double Linked Lists dan Single Linked Lists!<br>
     4. Jelaskan perbedaan logika dari kedua kode program di bawah ini!<br>
@@ -108,10 +108,10 @@
 
 
 - Jawaban: <br>
-    1. <br>
-    2. <br>
-    3. <br>
-    4. <br>
+    1. `size()` digunakan untuk me-return berapa jumlah node dalam linked list<br>
+    2. Untuk mengatur indeks dimulai dari 1 pada double linked lists, cukup atur iterasi dan mengubah pointer pada method `add()` dan `get()` mulai dari 1 dan melakukan pengecekan jika `i` sama dengan `index`.<br>
+    3. Pada Single Linked Lists hanya perlu mengubah 1 pointer saja(next), sementara pada Double Linked Lists perlu mengubah 2 pointer sehingga menjadi lebih kompleks<br>
+    4. Kode a, mengecek apakah list kosong berdasarkan banyak node yang ada. Sementara kode b, memeriksa kekosongan berdasarkan apakah node pertama/head<br>
 
 ## LATIHAN 
 ### Tugas  :
