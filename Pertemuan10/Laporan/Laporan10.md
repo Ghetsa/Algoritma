@@ -183,7 +183,7 @@
      * Menampilkan Daftar Antrian Pembeli<br>
         <center><img src="per10_lat6.png" width="300px" ></center>
 
-     * Menambahkan Mengeluarkan/Menghapus Antrian Pembeli Pertama<br>
+     * Mengeluarkan/Menghapus Antrian Pembeli Pertama<br>
         <center><img src="per10_lat7.png" width="300px" ></center>
 
      * Menampilkan Antrian Pembeli Terdepan / Pertama<br>
