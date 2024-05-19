@@ -73,8 +73,10 @@ public class DoubleLinkedLists {
     // PERCOBAAN 2
     public void removeFirst() throws Exception {
         if (isEmpty()) {
+            System.out.println("----------------------------------------------");
             System.out.println("|          !! LIST ANTRIAN KOSONG !!         |");
-
+            System.out.println("----------------------------------------------");
+    
         } else if (size == 1) {
             removeLast();
         } else {
@@ -82,19 +84,21 @@ public class DoubleLinkedLists {
             head = head.next;
             head.prev = null;
             size--;
-            System.out.println("| " + namaHapus + " telah berhasil dihapus |");
+            System.out.printf("| %-42s %s|%n", namaHapus + " telah selesai divaksinasi", "");
         }
     }
 
     public void removeLast() throws Exception {
         String namaHapus;
         if (isEmpty()) {
-            throw new Exception("Linked List masih kosong, tidak dapat dihapus!!");
+            System.out.println("----------------------------------------------");
+            System.out.println("|          !! LIST ANTRIAN KOSONG !!         |");
+            System.out.println("----------------------------------------------");
         } else if (head.next == null) {
             namaHapus = head.data.nama;
             head = null;
             size--;
-            System.out.printf("| %-42s %s|%n", namaHapus + " telah berhasil dihapus", "");
+            System.out.printf("| %-42s %s|%n", namaHapus + " telah selesai divaksinasi", "");
         } else {
             Node current = head;
             while (current.next.next != null) {
@@ -103,7 +107,7 @@ public class DoubleLinkedLists {
             namaHapus = current.data.nama;
             current.next = null;
             size--;
-            System.out.println("| " + namaHapus + " telah berhasil dihapus |");
+            System.out.printf("| %-42s %s|%n", namaHapus + " telah selesai divaksinasi", "");
         }
     }
 

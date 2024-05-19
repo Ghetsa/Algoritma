@@ -69,9 +69,10 @@ public class Main {
                     judul = scs.nextLine();
                     System.out.print("| Masukkan Rating (0,0-10,0): ");
                     rating = sc.nextDouble();
-                    System.out.print("| Masukkan INDEX Film       : ");
+                    System.out.print("| Masukkan Urutan Film (mulai 1): ");
                     int index = sc.nextInt();
-                    dll.add(new Film(id, judul, rating), index);
+                    int indexx = index - 1;
+                    dll.add(new Film(id, judul, rating), indexx);
                     break;
                 case 4:
                     System.out.println("==============================================");
@@ -91,13 +92,14 @@ public class Main {
                     break;
                 case 6:
                     System.out.println("==============================================");
-                    System.out.println("|       HAPUS DATA FILM INDEX TERTENTU       |");
+                    System.out.println("|          HAPUS DATA FILM TERTENTU          |");
                     System.out.println("----------------------------------------------");
-                    System.out.print("| Masukkan INDEX Film : ");
-                    int indexx = sc.nextInt();
-                    dll.remove(indexx);
+                    System.out.print("| Masukkan URUTAN Film (mulai 1) : ");
+                    int indexxx = sc.nextInt();
+                    int indexxxx = indexxx - 1;
+                    System.out.println("----------------------------------------------");
+                    dll.remove(indexxxx);
                     System.out.println("==============================================");
-
                     break;
                 case 7:
                     dll.print();
@@ -106,12 +108,12 @@ public class Main {
                     System.out.println("==============================================");
                     System.out.println("|                CARI ID FILM                |");
                     System.out.println("----------------------------------------------");
-                    System.out.print("| Masukkan ID Film : ");
+                    System.out.print("| Masukkan ID Film yang Dicari: ");
                     int idCari = sc.nextInt();
-                    
-                    System.out.print("| ID Film          : "+ dll.get(dll.find(idCari)).id );
-                    System.out.print("| Judul Film       : "+ dll.get(dll.find(idCari)).judul);
-                    System.out.print("| Rating (0,0-10,0): "+ dll.get(dll.find(idCari)).rating);
+                    System.out.println("----------------------------------------------");
+                    System.out.printf("|%-43s %s|%n", " ID     | "+ dll.get(dll.find(idCari)).id, "");
+                    System.out.printf("|%-43s %s|%n", " Judul  | "+ dll.get(dll.find(idCari)).judul, "");
+                    System.out.printf("|%-43s %s|%n", " Rating | "+ dll.get(dll.find(idCari)).rating, "");
                     System.out.println("==============================================");
 
                     break;

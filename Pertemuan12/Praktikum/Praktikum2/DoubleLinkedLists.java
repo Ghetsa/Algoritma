@@ -77,7 +77,6 @@ public class DoubleLinkedLists {
                 System.out.println("----------------------------------------------");
                 System.out.println("|          !! INDEX DILUAR BATAS !!          |");
                 System.out.println("----------------------------------------------");
-
             } else {
                 Node current = head;
                 int i = 0;
@@ -116,17 +115,20 @@ public class DoubleLinkedLists {
 
     void print() {
         System.out.println("==============================================");
-        System.out.println("|            LIST ANTRIAN VAKSIN             |");
+        System.out.println("|               LIST DATA FILM               |");
         System.out.println("----------------------------------------------");
 
         if (!isEmpty()) {
             int i = 0;
             Node tmp = head;
             System.out.printf("| %-8s| %-20s| %-10s %s|%n", "ID", "JUDUL", "RATING", "");
-            System.out.println("----------------------------------------------");
+            System.out.println("==============================================");
 
             while (tmp != null) {
-                System.out.printf("| %-8s| %-20s| %-10s %s|%n", tmp.data.id, tmp.data.judul, tmp.data.rating, "");
+                System.out.printf("|%-43s %s|%n", " ID     | "+ tmp.data.id, "");
+                System.out.printf("|%-43s %s|%n", " Judul  | "+ tmp.data.judul, "");
+                System.out.printf("|%-43s %s|%n", " Rating | "+ tmp.data.rating, "");
+                System.out.println("----------------------------------------------");
                 tmp = tmp.next;
                 i++;
             }
@@ -154,7 +156,7 @@ public class DoubleLinkedLists {
             head = head.next;
             head.prev = null;
             size--;
-            System.out.printf("| %-42s %s|%n", "Film [" + namaHapus + "] telah berhasil dihapus", "");
+            System.out.printf("| %-42s %s|%n", "Film [" + namaHapus + "] telah dihapus", "");
         }
     }
 
@@ -166,7 +168,7 @@ public class DoubleLinkedLists {
             namaHapus = head.data.judul;
             head = null;
             size--;
-            System.out.printf("| %-42s %s|%n", "Film [" + namaHapus + "] telah berhasil dihapus", "");
+            System.out.printf("| %-42s %s|%n", "Film [" + namaHapus + "] telah dihapus", "");
         } else {
             Node current = head;
             while (current.next.next != null) {
@@ -175,18 +177,14 @@ public class DoubleLinkedLists {
             namaHapus = current.data.judul;
             current.next = null;
             size--;
-            System.out.printf("| %-42s %s|%n", "Film [" + namaHapus + "] telah berhasil dihapus", "");
+            System.out.printf("| %-42s %s|%n", "Film [" + namaHapus + "] telah dihapus", "");
         }
     }
 
     public void remove(int index) throws Exception {
+        String namaHapus;
         if (isEmpty() || index >= size) {
-            try {
-
-            } catch (Exception e) {
-                // Handle it.
-            }
-            throw new Exception("Nilai indeks di luar batas");
+            System.out.println("|          !! INDEX DILUAR BATAS !!          |");
         } else if (index == 0) {
             removeFirst();
         } else {
@@ -202,12 +200,13 @@ public class DoubleLinkedLists {
                 current = current.next;
                 current.prev = null;
                 head = current;
-
             } else {
                 current.prev.next = current.next;
                 current.next.prev = current.next;
             }
+            namaHapus = current.data.judul;
             size--;
+            System.out.printf("| %-42s %s|%n", "Film [" + namaHapus + "] telah dihapus", "");
         }
     }
 
@@ -252,7 +251,7 @@ public class DoubleLinkedLists {
     }
 
     // SORTING
-    void sort() {
+    public void sort() {
         DoubleLinkedLists copyList = copy();
         if (copyList.isEmpty() || copyList.head.next == null) {
             return;
@@ -263,16 +262,18 @@ public class DoubleLinkedLists {
             Node next = current.next;
             Node inner = current.prev;
 
-            while (inner != null && ((Film) inner.data).rating < ((Film) current.data).rating) {
+            while (inner != null && inner.data.rating < current.data.rating) {
                 inner = inner.prev;
             }
 
             if (current.prev != inner) {
+                // Menghapus node current dari posisinya saat ini
                 current.prev.next = current.next;
                 if (current.next != null) {
                     current.next.prev = current.prev;
                 }
 
+                // Menyisipkan node current pada posisi yang benar
                 if (inner == null) {
                     current.next = copyList.head;
                     copyList.head.prev = current;
@@ -280,7 +281,9 @@ public class DoubleLinkedLists {
                     current.prev = null;
                 } else {
                     current.next = inner.next;
-                    inner.next.prev = current;
+                    if (inner.next != null) {
+                        inner.next.prev = current;
+                    }
                     inner.next = current;
                     current.prev = inner;
                 }
