@@ -115,68 +115,68 @@
 
 ## LATIHAN 
 ### Tugas  :
-- Soal<br>
+#### Soal<br>
 
     1. Buat program antrian vaksinasi menggunakan queue berbasis double linked list sesuai ilustrasi dan menu di bawah ini! (counter jumlah antrian tersisa di menu cetak(3) dan data orang yang telah divaksinasi di menu Hapus Data(2) harus ada) <br>
         Contoh Ilustrasi Program 
-        <center><img src="per12_lat11.png" width="400px" ></center>
-        <center><img src="per12_lat12.png" width="400px" ></center>
+        <center><img src="per12_lat11.png" width="300px" ></center>
+        <center><img src="per12_lat12.png" width="300px" ></center>
     
     2. Buatlah program daftar film yang terdiri dari id, judul dan rating menggunakan double linked lists, bentuk program memiliki fitur pencarian melalui ID Film dan pengurutan Rating secara descending. Class Film wajib diimplementasikan dalam soal ini. <br>
         Contoh Ilustrasi Program 
-        <center><img src="per12_lat21.png" width="400px" ></center>
-        <center><img src="per12_lat22.png" width="400px" ></center>
-        <center><img src="per12_lat23.png" width="400px" ></center>
+        <center><img src="per12_lat21.png" width="300px" ></center>
+        <center><img src="per12_lat22.png" width="300px" ></center>
+        <center><img src="per12_lat23.png" width="300px" ></center>
     
 
 
-- Hasil Output<br>
+#### Hasil Output<br>
   
-  1. OUTPUT LATIHAN PRAKTIKUM 1:
-     1. Menu Utama<br>
-        <center><img src="per12_lat13.png" width="300px" ></center>
+1. OUTPUT LATIHAN PRAKTIKUM 1:
+   1. Menu Utama<br>
+      <center><img src="per12_lat13.png" width="300px" ></center>
 
-     2. Tambah Data<br>
-        <center><img src="per12_lat14.png" width="300px" ></center>
+   2. Tambah Data<br>
+      <center><img src="per12_lat14.png" width="300px" ></center>
 
-     3. Tampilkan Daftar<br>
-        <center><img src="per12_lat15.png" width="300px" ></center>
+   3. Tampilkan Daftar<br>
+      <center><img src="per12_lat15.png" width="300px" ></center>
 
-     4. Hapus Data<br>
-        <center><img src="per12_lat16.png" width="300px" ></center>
+   4. Hapus Data<br>
+      <center><img src="per12_lat16.png" width="300px" ></center>
 
-  2. OUTPUT LATIHAN PRAKTIKUM 2:
-     1. Menu Utama<br>
-        <center><img src="per12_lat24.png" width="300px" ></center>
+2. OUTPUT LATIHAN PRAKTIKUM 2:
+   1. Menu Utama<br>
+      <center><img src="per12_lat24.png" width="300px" ></center>
 
-     2. Menambahkan Data Film<br>
-       - Tambah Data Film Pertama<br>
-            <center><img src="per12_lat25.png" width="300px" ></center>
- 
-       - Tambah Data Film Terakhir<br>
-            <center><img src="per12_lat27.png" width="300px" ></center>
+   2. Menambahkan Data Film<br>
+        - Tambah Data Film Pertama<br>
+             <center><img src="per12_lat25.png" width="300px" ></center>
 
-       - Tambah Data Film Berdasarkan Index<br>
-            <center><img src="per12_lat28.png" width="300px" ></center>
+        - Tambah Data Film Terakhir<br>
+             <center><img src="per12_lat27.png" width="300px" ></center>
 
-     3. Menghapus Data Film<br>
-       - Hapus Data Film Pertama<br>
-            <center><img src="per12_lat33.png" width="300px" ></center>
- 
-       - Hapus Data Film Terakhir<br>
-            <center><img src="per12_lat34.png" width="300px" ></center>
+        - Tambah Data Film Berdasarkan Index<br>
+             <center><img src="per12_lat28.png" width="300px" ></center>
 
-       - Hapus Data Film Berdasarkan Urutan (Index +1)<br>
-            <center><img src="per12_lat35.png" width="300px" ></center>
+   3. Menghapus Data Film<br>
+        - Hapus Data Film Pertama<br>
+             <center><img src="per12_lat33.png" width="300px" ></center>
 
-     4. Menu Cetak Data Film<br>
-          <center><img src="per12_lat29.png" width="300px" ></center>
+        - Hapus Data Film Terakhir<br>
+             <center><img src="per12_lat34.png" width="300px" ></center>
 
-     5. Cari Data Film Berdasarkan ID<br>
-          <center><img src="per12_lat32.png" width="300px" ></center>
- 
-     6. Sorting Data Berdasarkan Rating Film - DESC<br>
-          <center><img src="per12_lat30.png" width="300px" ></center>
-          <center><img src="per12_lat31.png" width="300px" ></center>
- 
+        - Hapus Data Film Berdasarkan Urutan (Index +1)<br>
+             <center><img src="per12_lat35.png" width="300px" ></center>
+
+   4. Menu Cetak Data Film<br>
+        <center><img src="per12_lat29.png" width="300px" ></center>
+
+   5. Cari Data Film Berdasarkan ID<br>
+        <center><img src="per12_lat32.png" width="300px" ></center>
+
+   6. Sorting Data Berdasarkan Rating Film - DESC<br>
+        <center><img src="per12_lat30.png" width="300px" ></center><br>
+        <center><img src="per12_lat31.png" width="300px" ></center>
+
      
