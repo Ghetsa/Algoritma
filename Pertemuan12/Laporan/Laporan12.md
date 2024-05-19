@@ -85,7 +85,7 @@
     1. <br>
     2. <br>
     3. <br>
-    4. <br>
+    4. `current.prev.next = current.next;` digunakan untuk mengatur pointer `next` dari node sebelumnya ke node setelah node yang akan dihapus, dan `current.next.prev = current.next;` digunakan untuk mengatur pointer `prev` dari node setelahnya ke node sebelum node yang akan dihapus.<br>
 
 ### Percobaan 3
 #### Hasil Percobaan

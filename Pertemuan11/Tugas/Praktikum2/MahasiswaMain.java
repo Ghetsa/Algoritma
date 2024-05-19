@@ -215,7 +215,8 @@ public class MahasiswaMain {
                     System.out.println("----------------------------------------------");
 
                     System.out.printf("|%-43s %s|%n",
-                            " Data index ke-" + index + "   | " + " " + singLL.getData(singLL.indexOf(index)).nama + "", "");
+                            " Data index ke-" + index + "   | " + " " + singLL.getData(index).nama + "",
+                            "");
                     System.out.println("----------------------------------------------");
 
                     break;
@@ -238,7 +239,6 @@ public class MahasiswaMain {
                         System.out.println("|         !!!DATA TIDAK DITEMUKAN!!!         |");
 
                     }
-
                     System.out.println("----------------------------------------------");
 
                     break;

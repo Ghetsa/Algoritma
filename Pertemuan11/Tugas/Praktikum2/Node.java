@@ -9,5 +9,6 @@ public class Node {
         next = berikutnya;
     }
 
-    Node(){}
+    Node() {
+    }
 }

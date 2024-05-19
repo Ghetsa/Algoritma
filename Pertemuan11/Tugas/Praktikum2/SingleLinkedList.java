@@ -20,8 +20,6 @@ public class SingleLinkedList {
 
             while (tmp != null) {
                 System.out.printf("| %-8s| %-8s| %-10s| %-10s %s|%n", (i + 1), i, tmp.data.nim, tmp.data.nama, "");
-                // System.out.println("| Mhs" + (i + 1) + ", NIM: " + tmp.data.nim + ", Nama: "
-                // + tmp.data.nama);
                 tmp = tmp.next;
                 i++;
             }
@@ -81,7 +79,7 @@ public class SingleLinkedList {
                 insert = true;
             }
             temp = temp.next;
-            
+
         } while (temp != null);// } while (temp == null); (menjalankan perulangan selama tmp tidak kosong)
 
         // handle key success/failed
@@ -226,7 +224,7 @@ public class SingleLinkedList {
             System.out.println("----------------------------------------------");
         } else {
             if (head.data.nim == key) { // Jika node yang dihapus adalah node pertama
-                head = head.next; // Ubah kepala untuk menghapus node pertama
+                head = head.next; // Ubah head untuk menghapus node pertama
                 if (head == null) { // Jika linked list menjadi kosong setelah menghapus node pertama
                     tail = null; // Atur tail menjadi null juga
                 }
@@ -235,7 +233,7 @@ public class SingleLinkedList {
                 System.out.println("----------------------------------------------");
                 return; // Keluar dari metode setelah menghapus node
             }
-    
+
             Node temp = head;
             while (temp.next != null) {
                 if (temp.next.data.nim == key) { // Jika node berikutnya yang akan dihapus
@@ -250,14 +248,13 @@ public class SingleLinkedList {
                 }
                 temp = temp.next; // Pindah ke node berikutnya
             }
-    
+
             // Jika node dengan kunci yang diberikan tidak ditemukan
             System.out.println("----------------------------------------------");
             System.out.println("|      !! GAGAL! DATA TIDAK DITEMUKAN !!     |");
             System.out.println("----------------------------------------------");
         }
     }
-    
 
     public void removeAt(int index) {
         if (index == 0) {
