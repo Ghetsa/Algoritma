@@ -8,12 +8,12 @@
 
 MENU UTAMA
 <center><img src="kuis2_1.png" width="400px" ></center>
-<center><img src="kuis2_6.png" width="400px" ></center>
-<center><img src="kuis2_7.png" width="400px" ></center>
 
 
 MENU  HASIL TIAP RACES
-<center><img src="kuis2_2.png" width="400px" ></center>
+<center><img src="kuis2_8.png" width="400px" ></center><br>
+<center><img src="kuis2_6.png" width="400px" ></center><br>
+<center><img src="kuis2_7.png" width="400px" ></center><br>
 
 
 MENU HASIL AKHIR

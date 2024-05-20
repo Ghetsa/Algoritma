@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
   public static void main(String[] args) {
     LinkedList LL = new LinkedList();
-    RaceResult[] raceResults = new RaceResult[21];
+    RaceResult[] raceResults = new RaceResult[22];
     // Deklarasi pembalap
     Driver[] drivers = {
         new Driver("Lewis Hamilton"), // Mercedes
@@ -77,6 +77,8 @@ public class Main {
         { 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 0, 1 },
         // Abu Dhabi Grand Prix 21
         { 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 0, 1, 2, 3 },
+        // Singapore Grand Prix 22
+        { 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 0, 1, 2 },
     };
 
     
@@ -105,7 +107,8 @@ public class Main {
         "Kevin Magnussen", // Mexico Grand Prix 18
         "Nico Hulkenberg", // Brazil Grand Prix 19
         "Lewis Hamilton", // Las Vegas Grand Prix 20
-        "Max Verstappen" // Abu Dhabi Grand Prix 21
+        "Max Verstappen", // Abu Dhabi Grand Prix 21
+        "Max Verstappen" // Singapore Grand Prix 21
     };
     
     for (int i = 0; i < racePositions.length; i++) {
@@ -158,9 +161,10 @@ public class Main {
           System.out.println("| 19. Brazil Grand Prix                      |");
           System.out.println("| 20. Las Vegas Grand Prix                   |");
           System.out.println("| 21. Abu Dhabi Grand Prix                   |");
+          System.out.println("| 22. Singapore Grand Prix                   |");
           System.out.println("----------------------------------------------");
 
-          System.out.print("| Pilih Grand Prix (1-21): ");
+          System.out.print("| Pilih Grand Prix (1-22): ");
           int grandPrixChoice = sc.nextInt();
 
           String grandPrixName = LinkedList.getRaceName(grandPrixChoice);

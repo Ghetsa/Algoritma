@@ -187,6 +187,8 @@ public class LinkedList {
         return "Las Vegas Grand Prix";
       case 21:
         return "Abu Dhabi Grand Prix";
+      case 22:
+        return "Singapore Grand Prix";
       default:
         return "Unknown Grand Prix";
     }
