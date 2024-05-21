@@ -81,7 +81,6 @@ public class Main {
         { 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 0, 1, 2 },
     };
 
-    
     for (int i = 0; i < racePositions.length; i++) {
       raceResults[i] = new RaceResult(LinkedList.getRaceName(i + 1), racePositions[i], "");
       LinkedList.distributePoints(LL, drivers, raceResults[i]);
@@ -110,7 +109,7 @@ public class Main {
         "Max Verstappen", // Abu Dhabi Grand Prix 21
         "Max Verstappen" // Singapore Grand Prix 21
     };
-    
+
     for (int i = 0; i < racePositions.length; i++) {
       raceResults[i] = new RaceResult(LinkedList.getRaceName(i + 1), racePositions[i], fastestLapDrivers[i]);
       LinkedList.distributePoints(LL, drivers, raceResults[i]);
@@ -202,7 +201,11 @@ public class Main {
           System.out.println("==============================================");
           break;
         case 0:
+        System.out.println("==============================================");
+        System.out.println("|             KELUAR DARI PROGRAM            |");
+        System.out.println("==============================================");
 
+          stop = false;
           break;
 
         default:
