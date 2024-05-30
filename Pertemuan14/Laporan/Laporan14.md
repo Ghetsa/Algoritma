@@ -38,11 +38,17 @@
     
 
 - Jawaban: <br>
-    1. <br>
-    2. <br>
-    3. <br>
-    4. <br>
-    5. <br>
+    1. Karena hanya perlu melakukan pencarian pada bagian elemen tertentu (jika lebih kecil akan mencari di elemen sebelah kiri, jika lebih besar akan mencari disebelah kanan).(<br>
+    2. `left` digunakan untuk menunjukkan child sebelah kiri, `right` digunakan untuk menunjuk child sebelah kanan<br>
+    3. a. Digunakan untuk menunjuk elemen pertama dari sebuah Tree<br> b. Ketika pertama dibuat, `root` akan bernilai `null` yang mengindikasikan bahwa `Tree` masih kosong<br>
+    4. Node baru akan menjadi `root` dari `Tree`<br>
+    5. `if(data<current.data){` : digunakan untuk mengecek apakah data yang dicari lebih kecil dari current data yang sedang dicek<br>
+       `if(current.left!=null){`: Mengecek apakah current memiliki left child<br>
+       `current = current.left;`: jika memiliki, akan memindahkan `current` menjadi left child dari `current`<br>
+       `}else{` : jika node tidak memiliki left child<br>
+       `current.left = new Node(data);` : membuat node baru menjadi left child dari `current`<br>
+       `break;` menghentikan perulangan setelah data ditambahkan<br>
+      
     
 ### Percobaan 2
 #### Hasil Percobaan
@@ -65,8 +71,8 @@
 
 
 - Jawaban: <br>
-    1. <br>
-    2. <br>
+    1. data digunakan untuk menampung nilai/data dari node dalam Tree<br> idxLast digunakan untuk menampung indeks node terakhir<br>
+    2. `populateData()` digunakan untuk mengisi array berdasarkan Binary Tree dan juga menentukan `idxLast`<br>
     3. <br>
     4. <br>
     5. <br>
@@ -75,66 +81,22 @@
 ### Tugas  :
 - Soal<br>
 
-    1. Buat program antrian vaksinasi menggunakan queue berbasis double linked list sesuai ilustrasi dan menu di bawah ini! (counter jumlah antrian tersisa di menu cetak(3) dan data orang yang telah divaksinasi di menu Hapus Data(2) harus ada) <br>
-        Contoh Ilustrasi Program 
-        <center><img src="per14_lat11.png" width="300px" ></center>
-        <center><img src="per14_lat12.png" width="300px" ></center>
-    
-    2. Buatlah program daftar film yang terdiri dari id, judul dan rating menggunakan double linked lists, bentuk program memiliki fitur pencarian melalui ID Film dan pengurutan Rating secara descending. Class Film wajib diimplementasikan dalam soal ini. <br>
-        Contoh Ilustrasi Program 
-        <center><img src="per14_lat21.png" width="300px" ></center>
-        <center><img src="per14_lat22.png" width="300px" ></center>
-        <center><img src="per14_lat23.png" width="300px" ></center>
-    
+    1. Buat method di dalam class BinaryTree yang akan menambahkan node dengan cara rekursif. <br>
+    2. Buat method di dalam class BinaryTree untuk menampilkan nilai paling kecil dan yang paling besar yang ada di dalam tree. <br>
+    3. Buat method di dalam class BinaryTree untuk menampilkan data yang ada di leaf.<br>
+    4. Buat method di dalam class BinaryTree untuk menampilkan berapa jumlah leaf yang ada di dalam tree. <br>
+    5. Modifikasi class BinaryTreeArray, dan tambahkan :  <br>
+        - method add(int data) untuk memasukan data ke dalam tree <br>
+        - method `traversePreOrder()` dan `traversePostOrder()`  <br>
+        
 
 
 - Hasil Output<br>
   
 1. OUTPUT LATIHAN PRAKTIKUM 1:
-   1. Menu Utama<br>
-        <center><img src="per14_lat13.png" width="300px" ></center>
-
-   2. Tambah Data<br>
-        <center><img src="per14_lat14.png" width="300px" ></center>
-
-   3. Tampilkan Daftar<br>
-        <center><img src="per14_lat15.png" width="300px" ></center>
-
-   4. Hapus Data<br>
-        <center><img src="per14_lat16.png" width="300px" ></center>
+   <center><img src="per14_lat1.png" width="300px" ></center>
 
 2. OUTPUT LATIHAN PRAKTIKUM 2:
-   1. Menu Utama<br>
-        <center><img src="per14_lat24.png" width="300px" ></center>
-
-   2. Menambahkan Data Film<br>
-        - Tambah Data Film Pertama<br>
-             <center><img src="per14_lat25.png" width="300px" ></center>
-
-        - Tambah Data Film Terakhir<br>
-             <center><img src="per14_lat27.png" width="300px" ></center>
-
-        - Tambah Data Film Berdasarkan Index<br>
-             <center><img src="per14_lat28.png" width="300px" ></center>
-
-   3. Menghapus Data Film<br>
-        - Hapus Data Film Pertama<br>
-             <center><img src="per14_lat33.png" width="300px" ></center>
-
-        - Hapus Data Film Terakhir<br>
-             <center><img src="per14_lat34.png" width="300px" ></center>
-
-        - Hapus Data Film Berdasarkan Urutan (Index +1)<br>
-             <center><img src="per14_lat35.png" width="300px" ></center>
-
-   4. Menu Cetak Data Film<br>
-        <center><img src="per14_lat29.png" width="300px" ></center>
-
-   5. Cari Data Film Berdasarkan ID<br>
-        <center><img src="per14_lat32.png" width="300px" ></center>
-
-   6. Sorting Data Berdasarkan Rating Film - DESC<br>
-        <center><img src="per14_lat30.png" width="300px" ></center><br>
-        <center><img src="per14_lat31.png" width="300px" ></center>
+   <center><img src="per14_lat2.png" width="300px" ></center>
 
      

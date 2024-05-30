@@ -1,4 +1,4 @@
-package Algoritma.Pertemuan14.Percobaan;
+package Algoritma.Pertemuan14.Percobaan.Percobaan2;
 
 public class BinaryTreeArrayMain12 {
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Algoritma.Pertemuan14.Percobaan;
+package Algoritma.Pertemuan14.Percobaan.Percobaan1;
 
 public class BinaryTree12 {
   Node12 root;
