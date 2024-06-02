@@ -73,9 +73,9 @@
 - Jawaban: <br>
     1. data digunakan untuk menampung nilai/data dari node dalam Tree<br> idxLast digunakan untuk menampung indeks node terakhir<br>
     2. `populateData()` digunakan untuk mengisi array berdasarkan Binary Tree dan juga menentukan `idxLast`<br>
-    3. <br>
-    4. <br>
-    5. <br>
+    3. `traverseInOrder()` digunakan untuk menampilkan/print node secara in-order (kiri, root, kanan)<br>
+    4.  Jika node disimpan di indeks 2, left child ada di indeks 5 `(2*2+1)` dan right child ada di indeks 6 `(2*2+2)`.<br>
+    5. `int idxLast = 6` Digunakan untuk menunjukkan bahwa elemen terakhir ada di indeks 6<br>
 
 ## LATIHAN 
 ### Tugas  :
@@ -93,10 +93,36 @@
 
 - Hasil Output<br>
   
-1. OUTPUT LATIHAN PRAKTIKUM 1:
-   <center><img src="per14_lat1.png" width="300px" ></center>
+1. HASIL LATIHAN PRAKTIKUM 1
+   CODES:<br>
+   <center><img src="per14_lat1.png" width="300px" ></center><br>
+   OUTPUT:<br>
+   <center><img src="per14_lat2.png" width="300px" ></center><br>
+  
+2. HASIL LATIHAN PRAKTIKUM 2
+   CODES:<br>
+   <center><img src="per14_lat3.png" width="300px" ></center><br>
+   OUTPUT:<br>
+   <center><img src="per14_lat4.png" width="300px" ></center><br>
+  
+3. HASIL LATIHAN PRAKTIKUM 3
+   CODES:<br>
+   <center><img src="per14_lat5.png" width="300px" ></center><br>
+   OUTPUT:<br>
+   <center><img src="per14_lat6.png" width="300px" ></center><br>
+  
+4. HASIL LATIHAN PRAKTIKUM 4
+   CODES:<br>
+   <center><img src="per14_lat7.png" width="300px" ></center><br>
+   OUTPUT:<br>
+   <center><img src="per14_lat8.png" width="300px" ></center><br>
+  
+5. HASIL LATIHAN PRAKTIKUM 5
+   CODES:<br>
+   <center><img src="per14_lat9.png" width="300px" ></center><br>
+   <center><img src="per14_lat10.png" width="300px" ></center><br>
+   OUTPUT:<br>
+   <center><img src="per14_lat11.png" width="300px" ></center>
 
-2. OUTPUT LATIHAN PRAKTIKUM 2:
-   <center><img src="per14_lat2.png" width="300px" ></center>
 
      
