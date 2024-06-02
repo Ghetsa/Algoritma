@@ -22,30 +22,39 @@ public class BinaryTreeMain12 {
     bt.addRec(10);
     bt.addRec(15);
 
-    System.out.print("PreOrder Traversal : ");
+    
+    System.out.println("===============================================");
+    System.out.println("|                 BINARY TREE                 |");
+    System.out.println("-----------------------------------------------");
+    System.out.print("| PreOrder Traversal : ");
     bt.traversePreOrder(bt.root);
-    System.out.println("");
-    System.out.print("inOrder Traversal : ");
+    System.out.println("   |");
+    System.out.print("| InOrder Traversal : ");
     bt.traverseInOrder(bt.root);
-    System.out.println("");
-    System.out.print("PostOrder Traversal : ");
+    System.out.println("    |");
+    System.out.print("| PostOrder Traversal : ");
     bt.traversePostOrder(bt.root);
-    System.out.println("");
-    System.out.println("Find Node : " + bt.find(5));
-    System.out.println("Delete Node 8 ");
+    System.out.println("  |");
+    System.out.printf("| %-43s %s|%n", "Find Node : " + bt.find(5), "");
+    System.out.println("-----------------------------------------------");
+    System.out.printf("| %-43s %s|%n", "Delete Node 8", "");
     bt.delete(8);
-    System.out.println("");
-    System.out.print("PreOrder Traversal : ");
+    System.out.print("| PreOrder Traversal : ");
     bt.traversePreOrder(bt.root);
-    System.out.println("");
+    System.out.println("     |");
+    System.out.println("-----------------------------------------------");
+    System.out.printf("| %-43s %s|%n", "Nilai Minimum: " + bt.findMin(), "");
+    System.out.printf("| %-43s %s|%n", "Nilai Maximum: " + bt.findMax(), "");
 
-    System.out.println("Nilai Minimum: " + bt.findMin());
-    System.out.println("Nilai Maximum: " + bt.findMax());
+    System.out.println("-----------------------------------------------");
 
-    System.out.print("Node Leaf: ");
+    System.out.print("| Node Leaf: ");
     bt.printLeaf(bt.root);
-    System.out.println("");
+    System.out.println("                        |");
 
-    System.out.println("Jumlah Node: " + bt.countLeaf(bt.root));
+    System.out.printf("| %-43s %s|%n", "Jumlah Node Leaf: " + bt.countLeaf(bt.root), "");
+
+    System.out.println("===============================================");
+
   }
 }

@@ -97,32 +97,32 @@
    CODES:<br>
    <center><img src="per14_lat1.png" width="300px" ></center><br>
    OUTPUT:<br>
-   <center><img src="per14_lat2.png" width="300px" ></center><br>
+   <center><img src="per14_lat111.png" width="300px" ></center><br>
   
 2. HASIL LATIHAN PRAKTIKUM 2
    CODES:<br>
    <center><img src="per14_lat3.png" width="300px" ></center><br>
    OUTPUT:<br>
-   <center><img src="per14_lat4.png" width="300px" ></center><br>
+   <center><img src="per14_lat112.png" width="300px" ></center><br>
   
 3. HASIL LATIHAN PRAKTIKUM 3
    CODES:<br>
    <center><img src="per14_lat5.png" width="300px" ></center><br>
    OUTPUT:<br>
-   <center><img src="per14_lat6.png" width="300px" ></center><br>
+   <center><img src="per14_lat113.png" width="300px" ></center><br>
   
 4. HASIL LATIHAN PRAKTIKUM 4
    CODES:<br>
    <center><img src="per14_lat7.png" width="300px" ></center><br>
    OUTPUT:<br>
-   <center><img src="per14_lat8.png" width="300px" ></center><br>
+   <center><img src="per14_lat114.png" width="300px" ></center><br>
   
 5. HASIL LATIHAN PRAKTIKUM 5
    CODES:<br>
    <center><img src="per14_lat9.png" width="300px" ></center><br>
    <center><img src="per14_lat10.png" width="300px" ></center><br>
    OUTPUT:<br>
-   <center><img src="per14_lat11.png" width="300px" ></center>
+   <center><img src="per14_lat115.png" width="300px" ></center>
 
 
      
