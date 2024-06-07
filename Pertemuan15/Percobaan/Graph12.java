@@ -1,14 +1,14 @@
 package Algoritma.Pertemuan15.Percobaan;
 
-public class Graph {
+public class Graph12 {
   int vertex;
-  DoubleLinkedLists list[];
+  DoubleLinkedList12 list[];
 
-  public Graph(int v) {
+  public Graph12(int v) {
     vertex = v;
-    list = new DoubleLinkedLists[v];
+    list = new DoubleLinkedList12[v];
     for (int i = 0; i < v; i++) {
-      list[i] = new DoubleLinkedLists();
+      list[i] = new DoubleLinkedList12();
     }
   }
 
@@ -68,5 +68,9 @@ public class Graph {
       }
     }
     System.out.println("");
+  }
+
+  public void updateJarak(int asal, int tujuan, int jarak){
+    list[asal].updateJarak(tujuan, jarak);
   }
 }

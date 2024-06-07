@@ -1,9 +1,9 @@
 package Algoritma.Pertemuan15.Percobaan;
 
-public class Main {
+public class GraphMain12 {
   public static void main(String[] args) throws Exception {
 
-    Graph gedung = new Graph(6);
+    Graph12 gedung = new Graph12(6);
     gedung.addEdge(0, 1, 50);
     gedung.addEdge(0, 2, 100);
     gedung.addEdge(1, 3, 70);

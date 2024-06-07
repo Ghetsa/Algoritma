@@ -1,10 +1,10 @@
 package Algoritma.Pertemuan15.Percobaan;
 
-public class Node {
+public class Node12 {
   int data, jarak;
-  Node prev,next;
+  Node12 prev,next;
 
-  Node(Node prev, int data, int jarak, Node next){
+  Node12(Node12 prev, int data, int jarak, Node12 next){
     this.prev = prev;
     this.data = data;
     this.jarak = jarak;

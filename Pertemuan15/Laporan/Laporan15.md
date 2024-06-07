@@ -65,9 +65,15 @@
 ### Tugas  :
 - Soal<br>
 
-    1. <br>
-    2. <br>
-    3. <br>
+    1. Modifikasi kode program pada class GraphMain sehingga terdapat menu program yang bersifat dinamis, setidaknya terdiri dari: <br>
+    a. Add Edge<br>
+    b. Remove Edge<br>
+    c. Degree<br>
+    d. Print Graph<br>
+    e. Cek Edge<br>
+    Pengguna dapat memilih menu program melalui input Scanner<br>
+    2. Tambahkan method updateJarak pada Percobaan 1 yang digunakan untuk mengubah jarak antara dua node asal dan tujuan!<br>
+    3. Tambahkan method hitungEdge untuk menghitung banyaknya edge yang terdapat di dalam graf!<br>
 
 
 - Hasil Output<br>

@@ -1,10 +1,10 @@
 package Algoritma.Pertemuan15.Percobaan;
 
-public class DoubleLinkedLists {
-    Node head;
+public class DoubleLinkedList12 {
+    Node12 head;
     int size;
 
-    public DoubleLinkedLists() {
+    public DoubleLinkedList12() {
         head = null;
         size = 0;
     }
@@ -15,9 +15,9 @@ public class DoubleLinkedLists {
 
     public void addFirst(int item, int jarak) {
         if (isEmpty()) {
-            head = new Node(null, item, jarak, null);
+            head = new Node12(null, item, jarak, null);
         } else {
-            Node newNode = new Node(null, item, jarak, head);
+            Node12 newNode = new Node12(null, item, jarak, head);
             head.prev = newNode;
             head = newNode;
         }
@@ -28,11 +28,11 @@ public class DoubleLinkedLists {
         if (isEmpty()) {
             addFirst(item, jarak);
         } else {
-            Node current = head;
+            Node12 current = head;
             while (current.next != null) {
                 current = current.next;
             }
-            Node newNode = new Node(current, item, jarak, current);
+            Node12 newNode = new Node12(current, item, jarak, current);
             current.next = newNode;
             size++;
         }
@@ -42,7 +42,7 @@ public class DoubleLinkedLists {
         if (isEmpty() || index >= size) {
             throw new Exception("Nilai indeks di luar batas");
         }
-        Node tmp = head;
+        Node12 tmp = head;
         for (int i = 0; i < index; i++) {
             tmp = tmp.next;
         }
@@ -56,18 +56,18 @@ public class DoubleLinkedLists {
         } else if (index < 0 || index > size) {
             throw new Exception("Nilai indeks di luar batas");
         } else {
-            Node current = head;
+            Node12 current = head;
             int i = 0;
             while (i < index) {
                 current = current.next;
                 i++;
             }
             if (current.prev == null) {
-                Node newNode = new Node(current, item, jarak, current);
+                Node12 newNode = new Node12(current, item, jarak, current);
                 current.prev = newNode;
                 head = newNode;
             } else {
-                Node newNode = new Node(current, item, jarak, current);
+                Node12 newNode = new Node12(current, item, jarak, current);
                 newNode.prev = current.prev;
                 newNode.next = current;
                 current.prev.next = newNode;
@@ -88,7 +88,7 @@ public class DoubleLinkedLists {
 
     public void print() {
         if (!isEmpty()) {
-            Node tmp = head;
+            Node12 tmp = head;
             while (tmp != null) {
                 System.out.print(tmp.data + "\t");
                 tmp = tmp.next;
@@ -121,7 +121,7 @@ public class DoubleLinkedLists {
             size--;
             return;
         }
-        Node current = head;
+        Node12 current = head;
         while (current.next.next != null) {
             current = current.next;
         }
@@ -130,7 +130,7 @@ public class DoubleLinkedLists {
     }
 
     public void remove(int index) {
-        Node current = head;
+        Node12 current = head;
         while (current != null) {
             if (current.data == index) {
                 if (current.prev != null) {
@@ -160,7 +160,7 @@ public class DoubleLinkedLists {
         if (isEmpty()) {
             throw new Exception("Linked List Kosong");
         }
-        Node tmp = head;
+        Node12 tmp = head;
         while (tmp.next != null) {
             tmp = tmp.next;
         }
@@ -171,7 +171,7 @@ public class DoubleLinkedLists {
         if (index > size || index < 0) {
             throw new Exception("Nilai indeks di luar batas");
         }
-        Node tmp = head;
+        Node12 tmp = head;
         for (int i = 0; i < index; i++) {
             tmp = tmp.next;
         }
