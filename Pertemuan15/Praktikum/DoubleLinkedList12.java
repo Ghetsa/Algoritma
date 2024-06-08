@@ -1,4 +1,4 @@
-package Algoritma.Pertemuan15.Percobaan;
+package Algoritma.Pertemuan15.Praktikum;
 
 public class DoubleLinkedList12 {
     Node12 head;
@@ -22,6 +22,8 @@ public class DoubleLinkedList12 {
             head = newNode;
         }
         size++;
+        System.out.println("|         DATA BERHASIL DITAMBAHKAN          |");
+
     }
 
     public int getJarak(int index) throws Exception {
@@ -86,6 +88,35 @@ public class DoubleLinkedList12 {
 
     }
 
+    // PERCOBAAN 2
+    public void removeFirst() throws Exception {
+        if (isEmpty()) {
+            throw new Exception("Linked List masih kosong, tidak dapat dihapus!");
+        } else if (size == 1) {
+            removeLast();
+        } else {
+            head = head.next;
+            head.prev = null;
+            size--;
+        }
+    }
+
+    public void removeLast() throws Exception {
+        if (isEmpty()) {
+            throw new Exception("Linked List masih kosong, tidak dapat dihapus!!");
+        } else if (head.next == null) {
+            head = null;
+            size--;
+            return;
+        }
+        Node12 current = head;
+        while (current.next.next != null) {
+            current = current.next;
+        }
+        current.next = null;
+        size--;
+    }
+
     public void remove(int index) {
         Node12 current = head;
         while (current != null) {
@@ -105,6 +136,25 @@ public class DoubleLinkedList12 {
         size--;
     }
 
+    // PERCOBAAN 3
+    public int getFirst() throws Exception {
+        if (isEmpty()) {
+            throw new Exception("Linked List Kosong");
+        }
+        return head.data;
+    }
+
+    public int getLast() throws Exception {
+        if (isEmpty()) {
+            throw new Exception("Linked List Kosong");
+        }
+        Node12 tmp = head;
+        while (tmp.next != null) {
+            tmp = tmp.next;
+        }
+        return tmp.data;
+    }
+
     public int get(int index) throws Exception {
         if (index > size || index < 0) {
             throw new Exception("Nilai indeks di luar batas");
@@ -114,17 +164,6 @@ public class DoubleLinkedList12 {
             tmp = tmp.next;
         }
         return tmp.data;
-    }
-
-    public void updateJarak(int index, int jarak) throws Exception {
-        if (isEmpty() || index > size || index < 0) {
-            System.out.println("Nilai indeks di luar batas");
-        }
-        Node12 current = head;
-        for (int i = 0; i < index; i++) {
-            current = current.next;
-        }
-        current.jarak = jarak;
     }
 
 }

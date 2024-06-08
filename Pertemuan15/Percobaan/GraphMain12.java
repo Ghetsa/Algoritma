@@ -13,7 +13,14 @@ public class GraphMain12 {
     gedung.degree(0);
     gedung.printGraph();
 
-    gedung.removeEdge(1, 3); 
+    gedung.removeEdge(1, 3);
     gedung.printGraph();
+
+    gedung.updateJarak(0, 1, 111);
+
+    gedung.printGraph();
+    gedung.hitungGraf();
+
+    System.out.println("");
   }
 }

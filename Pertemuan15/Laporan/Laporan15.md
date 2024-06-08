@@ -29,11 +29,14 @@
     5. Modifikasi kode program sehingga dapat dilakukan pengecekan apakah terdapat jalur antara suatu node dengan node lainnya, seperti contoh berikut (Anda dapat memanfaatkan Scanner). <br>
 
 - Jawaban: <br>
-    1. <br>
-    2. <br>
-    3. <br>
-    4. <br>
-    5. <br>
+    1. Perbaikan terdapat pada source code<br>
+    2. `list[]` digunakan untuk menyimpan data dari setiap vertex dalam graph<br>
+    3.  a. melakukan looping untuk memindahkan `i` ke `tujuan` <br>
+        b. melakukan pengecekan apakah `i` sama dengan `tujuan`<br>
+        c. jika iya, maka akan memanggil method `remove` di class `DoubleLinkedList12`<br>
+    4. Karena method addFirst() akan menambahkan data baru ke awal linked list segingga penambahan data dapat dilakukan dengan efisien dan cepat tanpa perlu traversing linked list.<br>
+    5. <center><img src="per15_15.png" width="300px" ></center><center><img src="per15_16.png" width="300px" ></center>
+<br>
     
 ### Percobaan 2
 #### Hasil Percobaan
@@ -49,17 +52,19 @@
     1. Perbaiki kode program Anda apabila terdapat error atau hasil kompilasi kode tidak sesuai! <br>
     2. Apa jenis graph yang digunakan pada Percobaan 2? <br>
     3. Apa maksud dari dua baris kode berikut?<br>
+        ```
+        gdg.makeEdge(1,2,70);
+        gdg.makeEdge(2,1,80);
+        ```
     4. Modifikasi kode program sehingga terdapat method untuk menghitung degree, termasuk inDegree dan outDegree! <br>
 
 
 
 - Jawaban: <br>
     1. <br>
-    2. <br>
-    3. <br>
-    4. <br>
-    5. <br>
-    6. 
+    2. jenis graph yang digunakan adalah directed graph karena memiliki arah dari `asal` ke `tujuan`<br>
+    3. Kode tersebut digunakan untuk membuat 2 edge dengan arah yang berbeda. Baris pertama digunakan untuk membuat edge dari vertex 1 ke vertex 2 dengan jarak 70, sementara beris kedua digunakan untuk membuat edge dari vertex 2 ke vertex 1 dengan jarak 80<br>
+    4. <center><img src="per15_23.png" width="300px" ></center><br>
 
 ## LATIHAN 
 ### Tugas  :
@@ -79,35 +84,35 @@
 - Hasil Output<br>
   
 1. HASIL LATIHAN PRAKTIKUM 1
-   CODES:<br>
+   MENU UTAMA<br>
    <center><img src="per15_lat1.png" width="400px" ></center><br>
-   OUTPUT:<br>
-   <center><img src="per15_lat111.png" width="400px" ></center><br>
+   MENU ADD EDGE<br>
+   <center><img src="per15_lat2.png" width="400px" ></center>
+   <center><img src="per15_lat3.png" width="400px" ></center><br>
+   MENU REMOVE DEGREE<br>
+   <center><img src="per15_lat4.png" width="400px" ></center><br>
+   MENU DEGREE<br>
+   <center><img src="per15_lat5.png" width="400px" ></center>
+   <center><img src="per15_lat6.png" width="400px" ></center><br>
+   MENU PRINT GRAPH<br>
+   <center><img src="per15_lat7.png" width="400px" ></center><br>
+   MENU CEK EDGE<br>
+   <center><img src="per15_lat8.png" width="400px" ></center>
+   <center><img src="per15_lat9.png" width="400px" ></center><br>
   
 2. HASIL LATIHAN PRAKTIKUM 2
    CODES:<br>
-   <center><img src="per15_lat3.png" width="400px" ></center><br>
+   <center><img src="per15_lat21.png" width="400px" ></center><br>
+   <center><img src="per15_lat24.png" width="400px" ></center><br>
    OUTPUT:<br>
-   <center><img src="per15_lat112.png" width="400px" ></center><br>
+   <center><img src="per15_lat22.png" width="300px" ></center><br>
   
 3. HASIL LATIHAN PRAKTIKUM 3
    CODES:<br>
-   <center><img src="per15_lat5.png" width="400px" ></center><br>
+   <center><img src="per15_lat31.png" width="400px" ></center><br>
+   <center><img src="per15_lat33.png" width="400px" ></center><br>
    OUTPUT:<br>
-   <center><img src="per15_lat113.png" width="400px" ></center><br>
-  
-4. HASIL LATIHAN PRAKTIKUM 4
-   CODES:<br>
-   <center><img src="per15_lat7.png" width="400px" ></center><br>
-   OUTPUT:<br>
-   <center><img src="per15_lat114.png" width="400px" ></center><br>
-  
-5. HASIL LATIHAN PRAKTIKUM 5
-   CODES:<br>
-   <center><img src="per15_lat9.png" width="400px" ></center><br>
-   <center><img src="per15_lat10.png" width="400px" ></center><br>
-   OUTPUT:<br>
-   <center><img src="per15_lat115.png" width="400px" ></center>
+   <center><img src="per15_lat32.png" width="300px" ></center><br>
 
 
      
