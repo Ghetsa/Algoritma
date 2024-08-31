@@ -1,5 +1,5 @@
-# Algoritma
-Tempat pengumpulan tugas dan jobsheet pada Mata Kuliah <b>Algoritma dan Struktur Dasar<b>
+# Algoritma dan Struktur Data (ASD)
+Tempat pengumpulan tugas dan jobsheet pada Mata Kuliah <b>Algoritma dan Struktur Dasar<b> Semester 1
 
 <b>NAMA : GHETSA RAMADHANI RISKA ARRYANTI<b><br>
 <b>KELAS : TI-1H<b><br>
